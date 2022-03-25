@@ -1,15 +1,868 @@
-000000 hon3 wong4 zung6 sik1 si1 king1 gwok3 jyu6 jyu5 do1 nin4 kau4 bat1 dak1
-000001 joeng4 gaa1 jau5 neoi5 co1 coeng4 seng4 joeng5 zoi6 sam1 gwai1 jan4 mei6 sik1
-000002 tin1 saang1 lai6 zat1 naan4 zi6 hei3 jat1 ziu1 syun2 zoi6 gwan1 wong4 zak1
-000003 wui4 mau4 jat1 siu3 baak3 mei6 saang1 luk6 gung1 fan2 doi6 mou5 ngaan4 sik1
-000004 ceon1 hon4 ci3 juk6 waa4 cing1 ci4 wan1 cyun4 seoi2 gwat1 sai2 jing4 zi1
-000005 si6 ji4 fu4 hei2 giu1 mou5 lik6 ci2 si6 san1 sing4 jan1 zaak6 si4
-000006 wan4 ban3 faa1 ngaan4 gam1 bou6 jiu4 fu4 jung4 zoeng3 nyun5 dou6 ceon1 siu1
-000007 ceon1 siu1 fu2 dyun2 jat6 gou1 hei2 cung4 ci2 gwan1 wong4 bat1 zou2 ziu1
-000008 sing4 fun1 si6 jin3 mou5 haan4 haa6 ceon1 cung4 ceon1 jau4 je6 zyun1 je6
-000009 hau6 gung1 gaai1 lai6 saam1 cin1 jan4 saam1 cin1 cung2 oi3 zoi6 jat1 san1
-000010 gam1 uk1 zong1 seng4 giu1 si6 je6 juk6 lau2 jin3 baa6 zeoi3 wo4 ceon1
-000011 zi2 mui2 dai6 hing1 gaai1 lit6 tou2 ho2 lin4 gwong1 coi2 saang1 mun4 wu6
-000012 seoi6 ling6 tin1 haa5 fu2 mou5 sam1 bat1 zung6 saang1 naam4 zung6 saang1 neoi5
-000013 lei4 gung1 gou1 cyu3 jap6 ceng1 wan4 sin1 lok6 fung1 piu1 cyu3 cyu3 man4
-000014 wun6 go1 maan6 mou5 jing4 si1 zuk1 zeon6 jat6 gwan1 wong4 hon3 bat1 zuk1 None
+000000 fun1 jing4 daai6 gaa1 gwong1 lam4 ngo5 dei2 gam1 jat6 ge3 gaa1 ban1 liu4 tin1 sat1
+000001 ji5 haa5 hai6 ne1 ci3 fong2 taam4 ge3 sat6 luk6
+000002 hai2 cin4 bin1 cat1 kei4 ge3 zit3 muk6 lei5 bin1 ne1 tung4 daai6 gaa1 gung6 tung4 gwaan1 zyu3 zo2 hou2 do1 daai6 hok6 saang1 zau6 jip6 ge3 jit6 dim2 waa6 tai4
+000003 hai2 gam1 jat6 ge3 zit3 muk6 dong1 zung1 zoeng1 wui5 gai3 zuk6 gwaan1 zyu3 ngo5 dei2 ge3 jit6 dim2 waa6 tai4 zi1 jat1
+000004 zau6 hai6 dong1 nei5 jau4 jyu6 gan2 jat1 go3 daai6 gung1 si1 ge3 sai3 zik1 wai2 tung4 maai4 jat1 go3 sai3 gung1 si1 ge3 daai6 zik1 wai2 ge3 si4 hau6
+000005 jing1 goi1 dim2 joeng2 heoi3 gaan2 ne1
+000006 jung6 jat1 geoi3 zuk6 waa6 lei4 gong2 zau6 hai6 dong1 nei5 hai2 gai1 tau4 tung4 maai4 fung6 mei5 zi1 gaan1 syun2 zaak6 ge3 si4 hau6
+000007 nei5 hai6 ning4 jyun6 zou6 faan1 go3 gai1 tau4 ding6 hai6 zou6 jat1 go3 fung6 mei5
+000008 jik6 dou1 hai6 hou2 do1 daai6 hok6 saang1 pang4 jau2 muk6 cin4 zau6 jip6 min6 lam4 ge3 zeoi3 daai6 kwan3 waak6 zi1 jat1
+000009 gam1 jat6 hai2 ngo5 dei2 zit3 muk6 dong1 zung1 zoeng1 wui5 tung4 daai6 gaa1 jat1 cai4 lai4 taam3 tou2
+000010 on3 ziu3 lau4 cing4 sau2 sin1 soeng2 ceng2 loeng5 wai2 lou5 si1 gaan2 daan1 tung4 daai6 gaa1 gaai3 siu6 faan1 leng4 baat3 nin4 tung4 hok6 ge3 zung2 tai2 cing4 fong3
+000011 sau2 sin1 ngo5 soeng2 gaai3 siu6 haa5 ngo5 dei2 hok6 haau6 ge3 zing2 tai2 cing4 fong3
+000012 bak1 ging1 gung1 soeng1 daai6 hok6 hai6 bak1 ging1 si5 zung6 dim2 gin3 cit3 ge3 jat1 go3 zung1 gap3 jing4 daai6 hok6
+000013 gau2 gau2 nin4 luk6 jyut6 jau4 jyun4 sin1 ge3 bak1 ging1 heng1 gung1 jip6 hok6 jyun2 tung4 bak1 ging1 soeng1 hok6 jyun2 gap3 bing3 bak1 ging1 gei1 haai6 gon3 bou6 gun2 lei5 hok6 jyun2 zou2 gin3 ji4 seng4
+000014 bak1 ging1 heng1 gung1 jip6 hok6 jyun2 tung4 bak1 ging1 soeng1 hok6 jyun2 fan1 bit6 suk6 jyu1 jyun4 lei4 ge3 heng1 gung1 jip6 bou6 tung4 maai4 gwok3 noi6 mau6 ji6 bou6
+000015 bak1 ging1 soeng1 hok6 jyun2 cong1 gin3 jyu1 jat1 gau2 ng5 leng4 nin4
+000016 bak1 ging1 heng1 gung1 jip6 hok6 jyun2 cong1 gin3 jyu1 jat1 gau2 ng5 baat3 nin4
+000017 dou2 ji4 gaa1 hok6 haau6 wai4 gwok3 gaa1 pui4 joeng5 zo2 zoeng1 gan6 sap6 maan6 meng2 gwok3 noi6 gok3 gaai3 zyun1 mun4 jan4 coi4
+000018 loeng5 gaan1 hok6 haau6 gap3 bing3 zi1 hau6 hok6 haau6 ge3 zung1 gap3 sat6 lik6 hin2 zoek3 zang1 koeng4 zo2
+000019 lei4 dou2 zo2 jat1 go3 san1 ge3 faat3 zin2 si4 kei4
+000020 jau4 daan1 fo1 sing3 ge3 daai6 hok6 faat3 zin2 seng4 wai4 ji5 ging1 zai2 hok6 gun2 lei5 hok6 gung1 hok6 wai4 zyu2
+000021 ging1 gun2 gung1 lei5 man4 faat3 si2 dang2 hok6 fo1 soeng2 wu6 zi1 caang3 ge3 hip3 diu6 faat3 zin2 ge3 daai6 hok6
+000022 hok6 haau6 hai6 laap6 zuk1 jyu1 bak1 ging1 fuk6 mou6 sau2 dou1 min6 hoeng3 cyun4 gwok3
+000023 ji5 gou1 seoi2 peng4 ge3 jan4 coi4 pui4 joeng5 fo1 hok6 jin4 gau3 se5 wui5 fuk6 mou6
+000024 wai4 gwok3 gaa1 jau4 kei4 hai6 wai6 sau2 dou1 ge3 ging1 zai2 gin3 cit3 tung4 maai4 se5 wui5 faat3 zin2 gung3 hin3 lik6 loeng6
+000025 hok6 haau6 ji4 gaa1 zeng3 hai2 dou6 jau4 gaau3 hok6 jing4 daai6 hok6 zuk6 zim1 hoeng3 zyu6 gaau3 hok6 jin4 gau3 jing4 daai6 hok6 zyun3 bin3 ge3 jat1 go3 si4 kei4
+000026 hok6 haau6 pui4 joeng5 dak1 coi4 gim1 bei6 zi3 hing1 gap3 jat1 geoi6 jau5 zaak3 jam6 gam2 ge3 fuk1 gap3 jing4 tung4 jing1 jung6 jing4 ge3 jan4 coi4
+000027 ngo5 dei2 hok6 haau6 zoi6 haau6 jat1 gung6 hai6 jau5 bun2 fo1 saang1 jat1 maan6 ji6 cin1 gei2 meng2 jin4 gau3 saang1 jat1 cin1 sei3 baak3 gei2 meng2
+000028 gam1 nin4 hok6 haau6 ge3 zau6 jip6 gung1 zok3 ceoi2 dak1 bei2 gaau3 hou2 ge3 seng4 zik1
+000029 hai2 leng4 luk6 nin4 tung4 leng4 cat1 nin4 zau6 jip6 leot6 ciu1 gwo3 zo2 bak1 ging1 dei6 keoi1 gou1 haau6 ge3 peng4 gwan1 zau6 jip6 leot6
+000030 zau6 jip6 zat1 loeng6 hai2 dou6 bat1 tyun5 tai4 gou1
+000031 pei3 jyu4 waa6 ngo5 dei2 wui5 gai3 hok6 jyun2 leng4 cat1 gaai3 bat1 jip6 saang1 jap6 bin1
+000032 jau5 baak3 fan1 zi1 jaa6 sei3 ge3 bat1 jip6 saang1 hai2 sai3 gaai3 ng5 baak3 koeng4 kei5 jip6 zau6 jip6
+000033 ngo5 dei2 ge3 bat1 jip6 saang1 hai2 kei5 jip6 gung1 zok3 gwo3 cing4 jap6 bin1 jing6 zan1 daap6 sat6
+000034 hai2 kei5 jip6 ge3 cyun4 wut6 leot6 tung4 cyun4 zoi6 leot6 dou1 fei1 soeng4 zi1 gou1
+000035 pou2 bin3 sau6 dou2 jung6 jan4 daan1 wai2 ge3 hou2 ping4
+000036 leng4 baat3 nin4 ngo5 dei2 hok6 haau6 jat1 gung6 jau5 saam1 cin1 ji6 baak3 luk6 sap6 cat1 meng2 bun2 fo1 bat1 jip6 saang1
+000037 jat1 gung6 saam1 sap6 ji6 go3 bun2 fo1 zyun1 jip6
+000038 ling6 ngoi6 jau5 jaa6 ji6 go3 jin4 gau3 fong1 hoeng3 ge3 bat1 jip6 jin4 gau3 saang1 sei3 baak3 leng4 ng5 meng2
+000039 bat1 jip6 saang1 zyu2 jiu3 lei4 zi6 cyun4 gwok3 ge3 saam1 sap6 jat1 go3 saang2 si5
+000040 ngo5 dei2 ge3 bat1 jip6 saang1 zau6 jip6 gung1 zok3 hai2 dou6 jau5 zeoi6 zeon3 haang4 gan2
+000041 ngo5 dei2 hok6 haau6 ling5 dou6 deoi3 bat1 jip6 gung1 zok3 ne1 fong1 min6 hou2 zung6 si6
+000042 zoeng1 keoi5 zok3 wai4 jat1 baa2 sau2 gung1 cing4
+000043 hok6 haau6 dong2 wai1 haang4 zing3 ge3 jat1 baa2 sau2 ling5 dou6 can1 zi6 zaa1 zau6 jip6
+000044 ling6 ngoi6 hai2 jan4 jyun4 git3 gau3 coeng4 dei6 ging1 fai3 fong1 min6 dou1 jau5 bei3 dou2 cung1 fan1 ge3 bou2 zing3
+000045 baau1 gwaat3 bun1 ngo5 dei2 ge3 baan6 gung1 dim2 heoi3 hou2 fut3 lok6 ge3 baan6 gung1 jung6 dei6 zou6 zau6 jip6 zi2 dou6
+000046 ling6 ngoi6 ngo5 dei2 zung6 jau5 baak3 gei2 fong1 ge3 zyun1 mun4 ge3 ziu1 ping3 sat1
+000047 ngo5 dei2 hok6 haau6 hai2 zau6 jip6 fong1 min6 zeon3 haang4 zyun1 jip6 faa3 seon3 sik1 faa3 gin3 cit3 ge3 tung4 si4
+000048 ngo5 dei2 jik6 dou1 jau4 saam1 go3 waan4 zit3 lai4 cuk1 zeon3 zau6 jip6
+000049 dai6 jat1 go3 zau6 hai6 gin3 laap6 bat1 jip6 saang1 zau6 jip6 dong3 on3 tung4 mui5 go3 bat1 jip6 saang1 gin3 laap6 zau6 jip6 dong3 on3
+000050 zau6 jip6 dong3 on3 zyu2 jiu3 baau1 ham4 bat1 jip6 saang1 ge3 gei1 bun2 cing4 fong3 zau6 jip6 ceoi2 hoeng3
+000051 baau1 gwaat3 keoi5 ge3 zau6 jip6 kei4 mong6 hok6 jip6 cing4 fong3 tung4 maai4 keoi5 ge3 kwan3 naan4
+000052 ling6 ngoi6 zau6 jip6 dong3 on3 zung6 baau1 gwaat3 bat1 jip6 saang1 ge3 teoi1 gaai3 cing4 fong3
+000053 jau4 kei4 hai6 jau5 jat1 go3 lou5 si1 deoi3 hok6 saang1 jat1 deoi3 jat1 zi2 dou6 ge3 taam4 waa6 gei3 luk6
+000054 mui5 go3 hok6 saang1 dou1 jiu3 zou6 dou2 jat1 deoi3 jat1 taam4 waa6
+000055 zeoi3 hau6 hai6 bat1 jip6 saang1 heoi3 hoeng3 ge3 cing4 fong3 zau6 hai6 bat1 jip6 saang1 heoi3 zo2 bin1 dou6 zau6 jip6
+000056 ngo5 dei2 tung1 gwo3 bat1 jip6 saang1 zau6 jip6 dong3 on3 ge3 gin3 laap6 sai3 faa3 zo2 ngo5 dei2 ge3 zau6 jip6 zi2 dou6
+000057 deoi3 hai2 zau6 jip6 gwo3 cing4 dong1 zung1 biu2 jin2 dak1 hou2 ge3 jyun2 hai6 tung4 go3 jan4 zeon3 haang4 zoeng2 lai6
+000058 gik1 faat3 zau6 jip6 gung1 zok3 ze2 ge3 gung1 zok3 jit6 cing4
+000059 dai6 saam1 hoi1 taap3 si5 coeng4 sai3 faa3 mui5 jat1 go3 waan4 zit3
+000060 ngo5 dei2 gan1 geoi3 hok6 haau6 ge3 ding6 wai2 tung4 zyun1 jip6 dak6 sik1 hoi1 taap3 ngo5 dei2 ge3 zau6 jip6 si5 coeng4
+000061 jat1 baan1 hai6 zoeng1 ging1 zeon1 tong4 waan4 but6 hoi2 coeng4 saam1 gok3 zyu1 saam1 gok3 zok3 wai4 ngo5 dei2 coeng4 kei4 hoi1 faat3 ge3 dei6 keoi1
+000062 ngo5 dei2 hai2 ne1 loeng5 nin4 gin3 dou2 zan3 hing1 dung1 bak1 lou5 gung1 jip6 ge3 seon3 sik1 zi1 hau6
+000063 jau6 zoeng1 dung1 bak1 zok3 wai4 ngo5 dei2 hoi1 taap3 si5 coeng4 ge3 jat1 go3 dei6 keoi1
+000064 zoeng1 ngoi6 soeng1 zaap6 tyun4 zok3 wai4 ngo5 dei2 ge3 zau6 jip6 gei1 dei6
+000065 ling6 ngoi6 ngo5 dei2 zung6 jau5 jat1 di1 goi2 gaak3 ge3 soeng4 si3
+000066 hok6 haau6 lei5 bin1 syun2 ding6 zo2 jat1 di1 kei5 jip6 zok3 wai4 ngo5 dei2 gaau3 hok6 sat6 zaap6 zau6 jip6 jat1 tiu4 lung4 ge3 gei1 dei6
+000067 gau6 nin4 gei1 haai6 hok6 jyun2 tung4 gwong2 dung1 soeng1 cin2 cuk1 din6 ci4 jau5 haan6 gung1 si1 daat6 seng4 zo2 gap3 zok3
+000068 jau4 ngo5 dei2 ge3 lou5 si1 daai3 zyu6 di1 bat1 jip6 saang1 heoi3 sat6 zaap6
+000069 zeoi3 hau6 jau5 baat3 wai2 tung4 hok6 tung4 keoi5 dei2 cim1 zo2 hip3 ji5
+000070 ne1 go3 soeng4 si3 zau6 bei2 gaau3 zi1 jau5 ji3 ji6 la1
+000071 gam1 nin4 ge3 zau6 jip6 gung1 zok3 jau4 gau2 jyut6 fan6 hoi1 ci2
+000072 ji5 ging1 siu6 hoi1 zo2 hou2 do1 coeng4 haau6 jyun4 syun1 gong2 wui5
+000073 pei3 jyu4 waa6 bou2 git3 gung1 si1 bak1 ging1 ngan4 haang4 dang2 ng5 sap6 gei2 gaan1 kei5 jip6
+000074 dou1 lei4 ngo5 dei2 hok6 haau6 siu6 hoi1 zo2 syun1 gong2 wui5
+000075 ngo5 dei2 hok6 haau6 hai2 sap6 jat1 jyut6 jaa6 cat1 hou6 zung6 jiu3 geoi2 haang4 daai6 jing4 ge3 syun1 gong2 wui5
+000076 ji4 gaa1 bou3 meng2 caam1 gaa1 ngo5 dei2 syun1 gong2 wui5 ge3 kei5 jip6 jau5 jat1 baak3 saam1 sap6 gei2 gaan1
+000077 ngo5 dei2 zau6 jip6 zung1 sam1 ge3 coeng4 dei6 cit3 si1 gok3 fong1 min6 dou1 gei2 hou2
+000078 nang4 gau3 fuk6 mou6 jyu1 hok6 saang1 se5 wui5 jung6 jan4 daan1 wai2
+000079 fun1 jing4 ngo5 dei2 ge3 tung4 haang4 tung4 maai4 jung6 jan4 daan1 wai2 lei4 ngo5 dei2 hok6 haau6 zi2 dou6 ziu1 sau1 ngo5 dei2 ge3 bat1 jip6 saang1
+000080 bak1 ging1 fo1 gei6 daai6 hok6 hai6 jat1 gau2 ng5 ji6 nin4 jau4 bak1 joeng4 daai6 hok6 dang2 gwok3 noi6 ng5 gaan1 zung6 jiu3 daai6 hok6 ge3 hai6 fo1 zou2 seng4 ge3
+000081 ji4 gaa1 ji5 ging1 faat3 zin2 seng4 wai4 ji5 gung1 wai4 zyu2 gung1 lei5 gun2 man4 ging1 faat3 dang2 do1 hok6 fo1 hip3 diu6 faat3 zin2 ge3
+000082 gaau3 juk6 bou6 zik6 suk6 ge3 cyun4 gwok3 zung6 dim2 daai6 hok6
+000083 bak1 ging1 fo1 gei6 daai6 hok6 ge3 cin4 san1 giu3 zou6 bak1 ging1 gong3 tit3 hok6 jyun2
+000084 jat1 gau2 baat3 baat3 nin4 goi2 seng4 bak1 ging1 fo1 gei6 daai6 hok6
+000085 jat1 gau2 gau2 cat1 nin4 ng5 jyut6 bak1 ging1 fo1 gei6 daai6 hok6 zeon3 jap6 gwok3 gaa1 sau2 pai1 ji6 jat1 jat1 gung1 cing4 gou1 haau6
+000086 hai2 ji6 leng4 leng4 luk6 nin4 seng4 wai4 gwok3 gaa1 ge3 jau1 sai3 hok6 fo1 cong1 san1 peng4 toi4 si3 dim2 gou1 haau6
+000087 ngo5 dei2 hok6 haau6 gok3 leoi6 ge3 zoi6 haau6 hok6 saang1 zau6 lei4 saam1 maan6 jan4 la1
+000088 bun2 fo1 saang1 jau5 jat1 maan6 ji6 cin1 gei2 jan4 gok3 leoi6 jin4 gau3 saang1 hai6 baat3 cin1 gei2 jan4
+000089 ne1 jat1 dim2 tung4 gung1 soeng1 daai6 hok6 ho2 nang4 zau6 m4 tung4 la1
+000090 jin4 gau3 saang1 ne1 cang4 faat3 zin2 dou1 hai6 bei2 gaau3 faai3
+000091 ceoi4 zo2 ne1 di1 zung6 jau5 ngoi6 gwok3 lau4 hok6 saang1 seng4 jan4 gaau3 juk6 hok6 jyun2 ge3 hok6 saang1 tung4 maai4 jyun5 cing4 gaau3 juk6 hok6 saang1 dang2 dang2
+000092 ngo5 dei2 hok6 haau6 ge3 zau6 jip6 leot6 zit6 zi2 dou2 leng4 cat1 nin4 gau2 jyut6 saam1 sap6 jat1 hou6 jin4 gau3 saang1 zau6 jip6 leot6 daat6 dou2 baak3 fan1 zi1 gau2 sap6 luk6 dim2 gei2
+000093 bun2 fo1 saang1 zau6 hai6 baak3 fan1 zi1 gau2 sap6 saam1 dim2 gei2
+000094 zing6 hai6 zau6 jip6 leot6 lei4 gong2 zung6 hai6 bei2 gaau3 lei5 soeng2 ge3
+000095 ji6 leng4 leng4 baat3 nin4 bun2 fo1 saang1 ngo5 dei2 zik1 zoeng1 zau6 jip6 ge3 hok6 saang1 jau5 saam1 cin1 jat1 baak3 wai2
+000096 jin4 gau3 saang1 baau1 gwaat3 sek6 si6 tung4 maai4 bok3 si6 dou1 hou2 do1 jau5 seng4 ji6 cin1 luk6 baak3 wai2
+000097 dou1 zau6 lei4 tung4 bun2 fo1 saang1 jat1 joeng2 gam3 do1 la1
+000098 ji6 leng4 leng4 baat3 nin4 bat1 jip6 saang1 ge3 zau6 jip6 gung1 zok3 ji5 ging1 gei1 bun2 soeng5 cyun4 bou6 zin2 hoi1
+000099 hok6 haau6 jik6 dou1 fei1 soeng4 zung6 si6 zau6 jip6 zi2 dou6 gung1 zok3
+000100 daai6 gaa1 dou1 hou2 zung6 si6 ne1 fong1 min6 zau6 jip6 gung1 zok3 ji5 ging1 seng4 wai4 hok6 haau6 se5 wui5 fei1 soeng4 gwaan1 sam1 ge3 jat1 go3 waa6 tai4
+000101 ji4 ce2 gan1 geoi3 gaau3 juk6 bou6 ge3 tung2 gai3 daai6 hok6 saang1 ji4 gaa1 min6 lam4 ge3 zyu2 jiu3 aat3 lik6 zi1 jat1 zau6 hai6 zau6 jip6
+000102 ngo5 dei2 waa6 gaai2 kyut3 hok6 saang1 ge3 man6 tai4 jat1 ding6 jiu3 tung4 keoi5 ge3 sat6 zai3 man6 tai4 soeng2 git3 gap3
+000103 hok6 haau6 jau4 ling5 dou6 dou2 gok3 go3 hok6 jyun2 ge3 lou5 si1
+000104 baau1 gwaat3 zau6 jip6 zi2 dou6 zyun1 zik1 ge3 deoi2 ng5
+000105 deoi3 zau6 jip6 ne1 fong1 min6 cung4 jing6 sik1 dou2 gung1 zok3 soeng5 dou1 fei1 soeng4 zi1 zung6 si6
+000106 dai6 jat1 go3 hai6 deoi2 ng5 gin3 cit3 ne1 fong1 min6
+000107 ngo5 dei2 hok6 haau6 ji4 gaa1 hei1 mong6 jau5 jat1 zi1 zyun1 mun4 ge3 zau6 jip6 zi2 dou6 tyun4 deoi2 lei4 zou6 hok6 haau6 ge3 zau6 jip6 zi2 dou6 gung1 zok3
+000108 jyun4 sin1 jau5 hou2 do1 jam6 mou6 dou1 hai6 hok6 jyun2 ge3 fu6 dou6 jyun4 hai2 dou6 zou6 fu6 dou6 jyun4 leon4 zyun3 jau6 hou2 faai3
+000109 so2 ji5 tyun4 deoi2 ge3 zyun1 jip6 faa3 tung4 zyun1 gaa1 faa3 hou2 naan4 bou2 zing3
+000110 ngo5 dei2 gam1 nin4 zau6 hei1 mong6 nang4 gau3 hai2 gok3 go3 hok6 jyun2 cit3 laap6 zau6 jip6 ge3 zyun1 mun4 zi2 dou6 gung1 zok3
+000111 zung6 jau5 si5 coeng4 gin3 cit3 ne1 fong1 min6
+000112 jan1 wai4 hok6 saang1 zeoi3 gap1 seoi1 ge3 zau6 hai6 zau6 jip6 seon3 sik1 jau5 seon3 sik1 sin1 nang4 gau3 kau4 zik1
+000113 deoi3 jyu1 si5 coeng4 seon3 sik1 ne1 fong1 min6 ngo5 dei2 dou1 hai6 ceng2 jung6 jan4 daan1 wai2 lei4 ngo5 dei2 hok6 haau6 siu6 hoi1 soeng1 syun2 wui5
+000114 tung4 si4 ngo5 dei2 jik6 dou1 daai3 zyu6 ngo5 dei2 ge3 hok6 saang1 haang4 ceot1 haau6 mun4 heoi3 jat1 di1 kei5 jip6 sat6 dei6 gam2 heoi3 mong6 haa5
+000115 jan1 wai4 hou2 do1 hok6 saang1 deoi3 jat1 go3 dei6 fong1 m4 liu5 gaai2 ge3 si4 hau6 zau6 mou5 ho2 nang4 syun2 zaak6 dak1 dou2 ge3
+000116 so2 ji5 ngo5 dei2 hai2 ne1 fong1 min6 jik6 dou1 hai6 fei1 soeng4 zi1 lok6 lik6
+000117 hei1 mong6 di1 hok6 saang1 heoi3 jat1 sin3 heoi3 sat6 dei6 zeon3 haang4 haau2 caat3
+000118 hok6 haau6 ji4 gaa1 soeng2 gaau2 faan1 go3 zau6 jip6 sat6 zaap6 gei1 dei6
+000119 jik6 dou1 hai6 hok6 zo2 kei4 taa1 gei2 gaan1 hing1 dai6 jyun2 haau6 ge3 zou6 faat3
+000120 ngo5 dei2 gai3 waak6 hai2 saam1 nin4 zi1 noi6 gin3 seng4 jat1 baak3 gaan1 sau6 bat1 jip6 saang1 fun1 jing4 ge3 daai6 hok6 saang1 zau6 jip6 sat6 zaap6 gei1 dei6
+000121 ne1 go3 sat6 zaap6 gei1 dei6 ngo5 dei2 hei1 mong6 hai6 jau4 ngo5 dei2 jat1 di1 gap3 zok3 dak1 hou2 ge3
+000122 tung4 maai4 hok6 saang1 bei2 gaau3 teoi1 zin3 ge3 jat1 di1 kei5 jip6 lei5 bin1 gaan2 faan1 di1 ceot1 lai4
+000123 ho2 ji5 hai2 hok6 saang1 bat1 jip6 zi1 cin4 jat1 go3 jyut6 ge3 si4 gaan1 dang2 di1 hok6 saang1 heoi3 ne1 go3 kei5 jip6 sat6 zaap6 faan1 jat1 go3 jyut6
+000124 hai2 ne1 dyun6 si4 gaan1 kei5 jip6 tung4 maai4 hok6 saang1 zi1 gaan1 ho2 ji5 gaa1 koeng4 liu5 gaai2
+000125 gan1 zyu6 zau6 hai6 soeng1 syun2 wui5 si5 coeng4 ne1 fong1 min6 ngo5 dei2 dou2 muk6 cin4 wai4 zi2
+000126 zam1 deoi3 leng4 baat3 gaai3 ge3 bat1 jip6 saang1 jik6 dou1 tung4 joeng4 lou5 si1 go2 bin1 jat1 joeng2 hoi1 zo2 hou2 do1 soeng1 syun2 wui5
+000127 gan1 zyu6 zau6 hai6 zau6 jip6 zi2 dou6 ne1 fong1 min6 san1 long4 ge3 ne1 go3 wut6 dung6 dou1 gei2 hou2
+000128 jan1 wai4 ji4 gaa1 ge3 daai6 hok6 saang1 deoi3 keoi5 ge3 zau6 jip6 zi2 dou6 ne1 fong1 min6
+000129 seoi1 jin4 gaau3 juk6 bou6 jiu3 kau4 jat1 ding6 jiu3 zeon3 fo3 tong4
+000130 daan6 zau6 ngo5 dei2 ge3 sat6 zai3 cing4 fong3 lai4 gong2 sat6 zai3 soeng5 syun2 sau1 fo3 ji5 ging1 hai2 hoi1 zo2
+000131 jat1 nin4 kap1 tung4 ji6 nin4 kap1 ho2 ji5 gaan2 zik1 jip6 saang1 ngaai4 kwai1 waak6 fo3
+000132 saam1 nin4 kap1 tung4 sei3 nin4 kap1 deoi3 jyu1 bat1 jip6 saang1 zau6 ho2 ji5 gaan2 zaak6 jip6 gei6 haau2 fo3
+000133 jat1 di1 zaak6 jip6 ge3 lei5 nim6 dim2 heoi3 syun2 zaak6 baau1 gwaat3 cin4 kei4 tou2 leon6 ge3 jat1 di1 waa6 tai4
+000134 hai2 zau6 jip6 zi2 dou6 fo3 soeng5 min6 lou5 si1 jik6 dou1 wui5 bei3 keoi5 dei2 jat1 di1 gun3 syu1
+000135 daan6 ngo5 zung2 tai2 dou1 hai6 jing6 wai4 hok6 saang1 zi2 dou6 ne1 fong1 min6 dou1 hai6 bei2 gaau3 zi1 siu2
+000136 jan1 wai4 jau5 di1 hok6 saang1 mou5 di1 gam2 ge3 ji3 sik1
+000137 nei5 tung4 keoi5 gong2 go2 zam6 si4 keoi5 ho2 nang4 zau6 gok3 dak1 mou5 gam3 gan2 jiu3
+000138 daan6 hou2 ci5 gam1 jat6 gam2 joeng2 ge3 jat1 go3 waa6 tai4
+000139 keoi5 zi2 jau5 hai2 min6 deoi3 go2 zam6 si4
+000140 sin1 ho2 nang4 mai4 waak6 keoi5 hai6 mou5 ne1 go3 cin4 zim1 sing3 ge3
+000141 so2 ji5 zau6 jip6 zi2 dou6 ne1 fong1 min6 ngo5 dei2 dou1 soeng2 lok6 lik6 gam2 heoi3 zou6
+000142 dou2 muk6 cin4 wai4 zi2 ji6 leng4 leng4 baat3 gaai3 bat1 jip6 saang1 dou1 jau5 zyun1 mun4 ge3 lou5 si1 hoi1 zin2 zo2 zaak6 jip6 gei6 haau2 zau6 jip6 zing3 caak3 dang2 jat1 hai6 lit6 ge3 gong2 zo6
+000143 gan1 zyu6 lok6 lai4 ngo5 dei2 zung6 wui5 ceng2 faan1 di1 kei5 jip6 jan4 lik6 zi1 jyun4 bou6 ge3 zyu2 gun2
+000144 baau1 gwaat3 kei4 taa1 haang4 jip6 ge3 zyun1 gaa1 tung4 ngo5 dei2 hok6 saang1 jau4 si5 coeng4 ge3 gok3 dou6 king1 haa5 ceot1 bin1 ge3 se5 wui5 hai6 dim2 joeng2 ge3
+000145 nei5 dei2 ho2 nang4 min6 lam4 faan1 di1 dim2 joeng2 ge3 man6 tai4
+000146 jan1 wai4 ne1 go3 si4 hau6 ho2 nang4 ngo5 dei2 zau6 jip6 zi2 dou6 ge3 jan4 gong2 keoi5 m4 seon3
+000147 daan6 hai6 kei5 jip6 di1 jan4 waa6 zo2 keoi5 zau6 seon3 la1
+000148 ngo5 dei2 hei1 mong6 jau4 do1 go3 gok3 dou6 gaa1 koeng4 hok6 saang1 ge3 zau6 jip6 zi2 dou6
+000149 gam1 jat6 tung4 daai6 gaa1 gung6 tung4 gwaan1 zyu3 ge3 waa6 tai4 hai6 jat1 go3 daai6 gung1 si1 ge3 sai3 zik1 wai2 tung4 jat1 go3 sai3 gung1 si1 ge3 daai6 zik1 wai2 zi1 gaan1 nei5 dim2 heoi3 gaan2 ne1
+000150 hou2 do1 daai6 hok6 saang1 dou1 wui5 jau5 di1 gam2 ge3 ji4 waak6 ji4 ce2 dak6 bit6 ji4 gaa1 hai6 wan2 gung1 ge3 gou1 fung1 si4 kei4
+000151 loeng5 wai2 lou5 si1 jau6 hai6 dim2 nam2 ne1 go3 man6 tai4 ne1
+000152 jung6 tung4 hok6 zai2 ge3 waa6 lei4 syut3 gaan2 bin1 go3 sin1 zi3 zeoi3 ming4 zi3 ne1
+000153 ne1 go3 man6 tai4 ngo5 hai6 gam2 tai2
+000154 mat1 je5 giu3 daai6 gung1 si1 sai3 gung1 si1
+000155 daai6 tung4 sai3 mou5 jat1 go3 biu1 zeon2 zi2 hai6 jat1 go3 soeng2 deoi3 ge3
+000156 ling6 ngoi6 gaan2 daai6 tung4 maai4 sai3 sau2 sin1 jiu3 gan1 geoi3 zi6 gei2 ge3 hou2 do1 dak6 dim2 lei4 kok3 ding6
+000157 jik6 dou1 m4 hai6 waa6 daai6 gung1 si1 zau6 hou2 sai3 gung1 si1 zau6 m4 hou2
+000158 hou2 do1 je5 jiu3 dim2 heoi3 tai2 jiu3 gan1 geoi3 zi6 gei2 ge3 nang4 lik6 dak6 dim2 tung4 maai4 sing3 gaak3 jan1 sou3 lei4 haau2 leoi6
+000159 pei3 jyu4 jau5 di1 jan4 aam1 heoi3 daai6 cong2 gam3 zau6 ho2 ji5 hai2 daai6 gung1 si1 jap6 bin1 tung1 gwo3 jat1 di1 wan6 zok3
+000160 hok6 dou2 hou2 do1 je5 tung1 gwo3 zi6 gei2 ge3 nou5 lik6 ho2 ji5 faat3 fai1 hou2 do1 zok3 jung6
+000161 jau5 di1 jan4 ho2 nang4 zau6 m4 aam1 di1 daai6 gung1 si1 la1
+000162 keoi5 zau6 hou2 zoek3 gan2 soeng2 heoi3 biu2 jin2 zi6 gei2 ge3 jat1 di1 je5
+000163 jik1 waak6 hai6 caam1 gaa1 faan1 di1 sat6 cin5 tung4 maai4 gung1 zok3
+000164 jik1 waak6 hai6 caam1 gaa1 di1 wut6 dung6 dang2 dang2
+000165 pei3 jyu4 ngo5 dei2 jau5 di1 tung4 hok6 ziu1 ping3 ge3 si4 hau6 jik6 dou1 hai6
+000166 keoi5 ge3 fu2 mou5 zau6 waa6 ngo5 ge3 sai3 lou6 hai6 heoi3 daai6 gung1 si1 zou6 faan1 go3 wui5 gai3 hou2 ne1
+000167 ding6 hai6 heoi3 pou2 waa4 wing5 dou6 ne1
+000168 ngo5 zau6 waa6 pou2 waa4 wing5 dou6 hai6 sei3 daai6 so2 zi1 jat1 jau5 hou2 do1 je5 hok6
+000169 daan6 hai6 nei5 heoi3 go2 bin1 hou2 daai6 aat3 lik6 wo3
+000170 jyu4 gwo2 nei5 heoi3 jat1 go3 pou2 tung1 ge3 gung1 si1 zou6 wui5 gai3
+000171 zau6 bei3 sam1 gei1 zou6 hou2 nei5 di1 jip6 mou6
+000172 nei5 ji5 hau6 ge3 zik1 jip6 saang1 ngaai4 sin1 zi3 hai6 hoeng3 soeng5 haang4 ge3
+000173 ngo5 go3 jan4 jing6 wai4 daai6 tung4 maai4 sai3 hai6 mou5 zyut2 deoi3 biu1 zeon2 ge3 ji4 hai6 gan1 geoi3 go3 jan4 ge3 cing4 fong3 lei4 kyut3 ding6
+000174 ngo5 tung4 ji3 joeng4 lou5 si1 ge3 gun1 dim2
+000175 kei4 sat6 aam1 zi6 gei2 sin1 zi3 hai6 zeoi3 hou2 mou5 mat1 hai6 zyut2 deoi3 ge3
+000176 tau4 sin1 joeng4 lou5 si1 waa6 tai2 nei5 zi6 gei2 hai6 dim2 ge3 cing4 fong3
+000177 nei5 fan1 sik1 zo2 ne1 gei2 go3 man6 tai4 zi3 jyu1 daai6 tung4 sai3 dou1 hai6 soeng2 deoi3 ge3
+000178 kei4 sat6 nei5 tau4 sin1 king1 dou2 zi6 gei2 ji3 hoeng3 ge3 man6 tai4
+000179 ngo5 dei2 zung6 jau5 jat1 go3 gong2 faat3
+000180 gai1 tau4 ding6 hai6 fung6 mei5 ne1
+000181 kei4 sat6 jau4 ngo5 dei2 hok6 haau6 lei4 gong2
+000182 ngo5 dei2 hei1 mong6 pui4 joeng5 ge3 jan4 coi4 hai6 zing1 jing1 jan4 coi4
+000183 mat1 je5 sin1 zi3 giu3 zing1 jing1 jan4 coi4 ne1
+000184 keoi5 m4 hai6 gai1 tau4 jik6 dou1 m4 hai6 fung6 mei5
+000185 daan6 ngo5 dei2 hei1 mong6 keoi5 ho2 ji5 laap6 zi3 zou6 ne1 go3 fung6 tau4
+000186 jau5 gam2 ge3 zi3 hoeng3 hai2 dou6
+000187 jyu4 gwo2 nei5 gaan2 zo2 heoi3 jat1 go3 daai6 kei5 jip6 jap6 bin1 ge3 hou2 pou2 tung1 ge3 gong1 wai2
+000188 jan1 wai4 ngo5 dei2 gam1 jat6 min6 deoi3 ge3 waa6 tai4 hai6 bat1 jip6 saang1 dim2 heoi3 gaan2
+000189 bat1 jip6 saang1 heoi3 zo2 gam2 joeng2 ge3 gong1 wai2
+000190 sau2 sin1 zau6 hai6 jat1 go3 ding6 wai2 ge3 man6 tai4
+000191 nei5 tau4 sin1 dou1 waa6 nei5 hai2 hok6 haau6 zung6 jau5 ho2 nang4 hai6 hok6 saang1 wui5 zyu2 zik6
+000192 daan6 dou1 hai6 jiu3 zung6 san1 hoi1 ci2 lei4 zo2 daan1 wai2 zi1 hau6 m4 lei5 hai6 jat1 go3 dim2 joeng2 ge3 hung1 gaan1 tung4 waan4 ging2
+000193 sau2 sin1 nei5 jiu3 tung4 zi6 gei2 ding6 wai2
+000194 zi1 dou6 ne1 go3 gong1 wai2 ge3 jam6 mou6 hai6 mat1 je5
+000195 dim2 gaai2 go3 daan1 wai2 gaan2 zo2 ngo5
+000196 ngo5 ho2 ji5 wai4 kei5 jip6 zou6 di1 mat1 je5
+000197 zi3 jyu1 ngo5 dim2 sin1 zou6 dak1 fung6 tau4
+000198 jik1 waak6 hai6 dim2 sin1 jau5 gang3 daai6 ge3 faat3 zin2
+000199 zi2 jiu3 nei5 fu6 ceot1 zo2 gam2 zau6 jat1 ding6 hai6 jau5 sau1 wok6 ge3
+000200 zung6 jau5 jat1 go3 hai6 ding6 wai2
+000201 zok3 wai4 jat1 go3 zik1 wai2 syun2 zaak6 ge3 ceoi2 hoeng3
+000202 zung6 jiu3 tai2 nei5 hok6 ge3 hai6 mat1 je5 zyun1 jip6
+000203 ngo5 ho2 ji5 zou6 di1 mat1 je5 ngo5 soeng2 zou6 di1 mat1 je5
+000204 go3 go3 bat1 jip6 saang1 ge3 kei4 mong6 dou1 hai6 jat1 joeng2 ge3
+000205 bat1 jip6 nam2 zyu6 zou6 fung6 tau4
+000206 daan6 hai6 zau6 jip6 aat3 lik6 gam3 daai6 ge3 cing4 fong3 dai2 haa5
+000207 ngo5 dei2 dim2 heoi3 zi2 dou6 hok6 saang1 deoi3 zi6 gei2 jau5 faan1 go3 ding6 wai2
+000208 sau2 sin1 jiu3 gaau2 cing1 co2 ngo5 hai6 bin1 go3 ngo5 aam1 zou6 di1 mat1 je5
+000209 ngo5 dei2 m4 lei5 heoi3 bin1 gaan1 gung1 si1 sau2 sin1 jiu3 jau5 jat1 go3 zi6 gei2 ge3 kwai1 waak6
+000210 hai2 daai6 gung1 si1 jap6 bin1 dim2 zou6 hai2 sai3 gung1 si1 jap6 bin1 jing1 goi1 dim2 zou6
+000211 ne1 di1 dou1 hai6 jiu3 kwai1 waak6 ge3 nei5 jap6 zo2 gung1 si1 zau6 m4 hou2 taan3 sai3 gaai3
+000212 jik1 waak6 nei5 nam2 zyu6 tiu3 cou4 heoi3 bin1 dou6
+000213 dou1 jing1 goi1 jau5 jat1 go3 zik1 jip6 ge3 kwai1 waak6 sin1 zi3 dak1
+000214 jiu3 sat6 jin2 zi6 gei2 go3 jan4 ge3 faat3 zin2 zung6 jiu3 tung4 kei5 jip6 ge3 faat3 zin2 git3 gap3 faan1
+000215 sin1 zi3 sat6 jin2 dou2 nei5 zi6 gei2 ge3 faat3 zin2
+000216 jat1 m4 hai6 nei5 zing6 nam2 zyu6 zi6 gei2 dim2 sin1 jau5 dak1 sing1 gun1
+000217 dim2 sin1 zi3 jau5 do1 di1 ngan4 zi2 gam2 zau6 m4 dak1 ge3
+000218 ji4 ce2 tung4 hok6 hai2 jap6 zo2 ne1 go3 kei5 jip6 zi1 hau6 jik6 dou1 jiu3 seon3 cuk1 zip3 sau6 ne1 go3 kei5 jip6 ge3 man4 faa3
+000219 seon3 cuk1 gam2 jung4 jap6 ne1 go3 kei5 jip6 zi1 zung1 sin1 zi3 jau5 gang3 hou2 ge3 faat3 zin2
+000220 tau4 sin1 gong2 jat1 go3 daai6 gung1 si1 jap6 bin1 zou6 jat1 go3 sai3 zik1 wai2
+000221 ceoi4 zo2 ding2 dak1 zyu6 zik6 mok6 sik1 jing1 kei5 jip6 man4 faa3 zi1 ngoi6
+000222 loeng5 wai2 lou5 si1 dou1 bei3 zo2 ngo5 dei2 hou2 do1 hou2 ge3 gin3 ji5
+000223 jyu4 gwo2 ngo5 heoi3 jat1 go3 sai3 gung1 si1 zou6 jat1 go3 ling5 tau4 joeng4
+000224 jing1 goi1 dim2 heoi3 zeon2 bei6 ne1
+000225 jan1 wai4 cyun4 bou6 di1 je5 ho2 nang4 dou1 jiu3 ngo5 lei4 syun2 zaak6
+000226 jyu4 gwo2 hai6 ngo5 heoi3 jat1 go3 sai3 gung1 si1 zou6 faan1 go3 ling5 tau4 joeng4
+000227 sau2 sin1 ngo5 hai6 zoeng1 zi6 gei2 fan6 gung1 jiu3 zou6 hou2 keoi5 sin1
+000228 zok3 wai4 daai6 hok6 saang1 jau6 hou2 zik1 jip6 jan4 jau6 hou2
+000229 sau2 sin1 zi6 gei2 bun2 san1 ge3 gung1 zok3 jiu3 zou6 hou2 ne1 go3 hai6 zeoi3 gei1 bun2 ge3
+000230 ling6 ngoi6 gung1 si1 ge3 faat3 zin2 nei5 jiu3 nam2 do1 di1
+000231 jiu3 jau5 jat1 go3 faat3 zin2 gai3 waak6
+000232 sau2 sin1 hai6 daap6 daap6 sat6 sat6 zou6 hou2 ji4 gaa1 di1 je5
+000233 ling6 ngoi6 dim2 heoi3 zou6 daai6 gaan1 kei5 jip6
+000234 zoeng1 cyun4 tai2 jyun4 gung1 tyun4 git3 hai2 maai4 jat1 cai4 ne1 di1 dou1 jiu3 haau2 leoi6
+000235 kei4 sat6 baau1 gwaat3 hai2 daai6 gung1 si1 jap6 bin1
+000236 jyu4 gwo2 nei5 zou6 hou2 zi6 gei2 fan6 gung1
+000237 ho2 nang4 jau6 wui5 jat1 bou6 jat1 bou6 gam2 heoi3 sing1 zik1
+000238 nei5 dou1 wui5 seon3 cuk1 gam2 bin3 seng4 fung6 tau4
+000239 so2 ji5 seng4 wai4 fung6 tau4 ge3 dou6 lou6 dou1 hai6 fei1 soeng4 zi1 do1
+000240 tiu4 tiu4 daai6 lou6 tung1 lo4 maa5 la1 maa5
+000241 baau1 gwaat3 ji4 gaa1 hou2 do1 zung1 joeng1 ling5 dou6 jan4 dou1 hai6 gam2 joeng2
+000242 sau2 sin1 jau4 gei1 cang4 zou6 hei2 jat1 bou6 jat1 go3 goek3 jan3
+000243 daap6 daap6 sat6 sat6 zou6 hou2 zi6 gei2 fan6 gung1
+000244 maan6 maan6 gam2 jau4 sai3 kei5 jip6 bin3 seng4 daai6 kei5 jip6
+000245 maan6 maan6 jau4 gai1 tau4 bin3 seng4 fung6 tau4 dou1 hai6 ne1 go3 gwo3 cing4
+000246 so2 jau5 ge3 je5 dou1 hai6 seoi1 jiu3 zik1 leoi3
+000247 ngo5 dei2 bit1 seoi1 jat1 bou6 jat1 bou6 goek3 daap6 sat6 dei6 gam2 heoi3 zou6
+000248 sin1 zi3 ho2 ji5 seng4 wai4 fung6 tau4
+000249 mou5 ho2 nang4 hai2 hok6 haau6 jat1 bat1 jip6 ceot1 lai4 zau6 zou6 dak1 fung6 tau4 ge3
+000250 teng1 jyun4 loeng5 wai2 lou5 si1 ge3 gaai3 siu6 ngo5 dat6 jin4 jau5 jat1 go3 nam2 faat3
+000251 pei3 jyu4 heoi3 jat1 go3 sai3 gung1 si1 ho2 ji5 cung1 fan1 tai4 gou1 ling5 dou6 lik6
+000252 pei3 jyu4 heoi3 jat1 go3 daai6 gung1 si1 hai2 gei1 cang4 zau6 hoi1 ci2 ming4 baak6 zoeng1 lei4 jyun4 gung1 hai6 dim2 heoi3 gung1 zok3
+000253 so2 ji5 mou5 mat1 je5 jau1 sai3 tung4 maai4 lyut3 sai3 ge3 nei5 taan2 jin4 gam2 heoi3 min6 deoi3 zau6 dak1 la1
+000254 baau1 gwaat3 ji4 gaa1 bak1 ging1 si5 jan4 si6 guk6 zou2 zik1 ge3 heoi3 bak1 ging1 gam1 kiu2 nung4 cyun1 daam1 jam6 cyun1 zi1 bou6 syu1 gei3 zo6 lei5 dou1 hai6 jat1 joeng2
+000255 dou1 hai6 hai2 gei1 cang4 dyun3 lin6 deoi3 keoi5 dei2 gam1 hau6 ge3 gung1 zok3 hou2 jau5 bong1 zo6
+000256 gam1 hau6 keoi5 dei2 jau5 ho2 nang4 zau6 hai6 fung6 tau4
+000257 keoi5 dei2 ji4 gaa1 dou1 hou2 daap6 sat6 gam2 hai2 nung4 cyun1
+000258 zi1 dou6 nung4 cyun1 gung1 zok3 dim2 heoi3 zou6 zi1 dou6 dim2 heoi3 mo4 lin2 zi6 gei2 ge3 ji3 zi3 zat1 loeng6 zeoi3 hau6 keoi5 dei2 zoeng1 wui5 seng4 wai4 ngo5 dei2 se5 wui5 ge3 fung6 tau4
+000259 jan1 wai4 keoi5 dei2 hai2 mei6 lai4 kyut3 caak3 go2 zam6 si4 liu5 gaai2 gei1 cang4 hai6 gam2 joeng2 ge3
+000260 keoi5 dei2 ge3 kyut3 caak3 ho2 nang4 zau6 deoi3 gei1 cang4 ge3 faat3 zin2
+000261 baau1 gwaat3 jat1 di1 tai2 zai3 ge3 gin3 laap6 gin6 cyun4 hei2 dou2 fei1 soeng4 gwaan1 gin6 ge3 zok3 jung6
+000262 ngo5 dei2 hai2 ne1 dou6 jiu3 tai4 sing2 daai6 gaa1 ge3 zau6 hai6
+000263 ji4 gaa1 zau6 jip6 ging6 zaang1 gam3 gik1 lit6 ji5 ging1 m4 hai6 haau2 leoi6 nei5 soeng2 zou6 gai1 tau4 ding6 hai6 fung6 mei5 ge3 si4 hau6 liu5
+000264 jan1 wai4 ji4 gaa1 m4 hai6 so2 jau5 hok6 saang1 dou1 jau5 syun2 zaak6 kyun4 gaan2 dak1 dou2 heoi3 ne1 gaa1 daan1 wai2 ding6 hai6 go2 gaan1
+000265 ji4 zeoi3 gan2 jiu3 zau6 hai6 nei5 zi6 gei2 ge3 cim4 ji3 sik1 gaan2 zo2 zi1 hau6 jiu3 dak1 dou2 jung6 jan4 daan1 wai2 ge3 jing6 ho2
+000266 sau2 sin1 dong1 doi6 daai6 hok6 saang1 zeoi3 seoi1 jiu3 ge3 zau6 hai6 jing6 ho2 zi6 gei2 daai6 hok6 sei3 nin4 ge3 hok6 jip6 dang2 dang2 ne1 di1 fong1 min6
+000267 gong2 dou2 mei6 lai4 ge3 faat3 zin2
+000268 mou5 leon6 hai6 zou6 jat1 go3 daai6 gung1 si1 jap6 bin1 ge3 sai3 zik1 jyun4 ding6 hai6 sai3 kei5 jip6 jap6 bin1 ge3 daai6 zik1 jyun4 dou1 wui5 min6 lam4 jat1 go3 man6 tai4
+000269 ji4 ce2 ne1 go3 man6 tai4 jik6 dou1 hai6 cin4 gei2 nin4 zou6 jyun4 fong2 taam4 zi1 hau6 jau5 di1 tung4 hok6 zai2 man6 ge3
+000270 ne1 go3 man6 tai4 zau6 hai6 daai6 hok6 saang1 hai2 daai6 hok6 ge3 tung4 hok6 nin4 gei2 soeng2 caa1
+000271 cung1 kei4 loeng6 dou1 hai6 loeng5 saam1 seoi3 gam3 do1
+000272 daan6 hai6 bou6 jap6 zik1 coeng4 ne1 zau6 faat3 jin2 zi6 gei2 tung4 si6 tung4 zi6 gei2 caa1 zo2 seng4 gei2 sap6 seoi3 gam3 do1
+000273 jyu4 gwo2 zong6 dou2 nei5 ge3 soeng5 si1 hau6 saang1 gwo3 nei5 hou2 do1
+000274 jik1 waak6 hai6 nei5 ge3 tung4 si6 daai6 gwo3 nei5 hou2 do1
+000275 tung4 hok6 jing1 goi1 dim2 heoi3 cyu3 lei5 ne1 go3 gwaan1 hai6 ne1
+000276 gaa3 jyu4 hai6 ngo5 ngo5 gung1 si1 jap6 bin1 ge3 ling5 dou6 tung4 si6 hang2 ding6 daai6 gwo3 ngo5
+000277 zi2 jiu3 tung4 si6 daai6 gwo3 ngo5 pei3 jyu4 daai6 sap6 seoi3 dou1 jau5 ho2 nang4
+000278 ngo5 zau6 wui5 zeon1 zung6 keoi5 sau2 sin1 hai2 gung1 zok3 soeng5 zeon1 zung6 keoi5
+000279 jan1 wai4 keoi5 daai6 gwo3 ngo5 sap6 gei2 seoi3
+000280 keoi5 ge3 gung1 zok3 ging1 lik6 baau1 gwaat3 keoi5 hou2 do1 ging1 jim6 tung4 maai4 gaau3 fan3
+000281 ngo5 dou1 ho2 ji5 hai2 keoi5 san1 soeng5 hok6 dou2 hou2 do1 je5
+000282 ling6 ngoi6 hai2 gung1 zok3 gwo3 cing4 jap6 bin1 ngo5 zau6 wui5 ging1 soeng4 tung4 keoi5 kau1 tung1 gaau1 lau4
+000283 hai2 gung1 zok3 jap6 bin1 keoi5 jau5 m4 hou2 ge3 dei6 fong1
+000284 ngo5 jik6 dou1 ho2 ji5 tung4 keoi5 kau1 tung1 gaau1 lau4
+000285 hai2 peng4 si4 saang1 wut6 ngo5 zau6 zeon1 keoi5 wai4 daai6 lou2 jik1 waak6 hai6 aa3 go1
+000286 ne1 di1 dou1 hai6 mou5 so2 wai6 ge3 ne1 go3 hai6 ngo5 zi6 gei2 ge3 zou6 faat3
+000287 kei4 sat6 saang1 wut6 zong6 taai3 tung4 gung1 zok3 zong6 taai3 jing1 goi1 fan1 hoi1
+000288 hai2 gung1 zok3 jap6 bin1 ngo5 dei2 loeng5 go3 zau6 hai6 peng4 dang2 hai6 tung4 si6 jat1 cai4 zou6 hou2 di1 gung1 zok3
+000289 daan6 hai2 saang1 wut6 dong1 zung1 ho2 nang4 zau6 jiu3 zeon1 zung6 nei5
+000290 kei4 sat6 jan4 tung4 jan4 zi1 gaan1 m4 lei5 nin4 ling4 daai6 sai3 sau2 sin1 dou1 hai6 jiu3 zeon1 zung6
+000291 jyu6 dou2 man6 tai4 gaa1 koeng4 kau1 tung1 ge3 waa6 nin4 ling4 zau6 bat1 seng4 man6 tai4
+000292 zeoi3 gan2 jiu3 hai6 jau5 di1 hok6 saang1 sam1 lei5 soeng5 bin1 peng4 hang4 m4 dou2 ne1 go3 man6 tai4
+000293 nei5 hai6 ngo5 ge3 ling5 dou6 dim2 gaai2 zung6 sai3 gwo3 ngo5 ne1
+000294 nei5 hai6 ngo5 ge3 tung4 si6 dim2 gaai2 daai6 ngo5 gam3 do1 ne1
+000295 kei4 sat6 daai6 gaa1 jiu3 zoeng1 nin4 ling4 ne1 go3 man6 tai4 taam5 faa3 siu2 siu2
+000296 daai6 gaa1 dou1 hai6 tung4 si6 dou1 hai6 jat1 go3 tyun4 deoi2 jap6 bin1 ge3 go3 tai2
+000297 ngo5 dei2 soeng2 wu6 zeon1 zung6 jyu6 dou2 man6 tai4 daai6 gaa1 saau2 mei4 paau1 hoi1 nin4 ling4 man6 tai4 ho2 nang4 zung6 zi6 jin4 siu2 siu2
+000298 deoi3 jyu1 saau2 mei4 hau6 saang1 ge3 ling5 dou6 ngo5 jik6 dou1 jau5 di1 gin3 gaai2
+000299 soeng5 kap1 giu3 hau6 saang1 zai2 zou6 ngo5 ling5 dou6
+000300 ho2 nang4 jau5 keoi5 ge3 dak6 coeng4 gwo3 jan4 zi1 cyu3
+000301 jau5 keoi5 ge3 ling5 dou6 coi4 nang4 ngo5 zau6 jat1 ding6 jiu3 zeon1 zung6 keoi5 zap1 haang4 keoi5 ge3 gai3 waak6
+000302 baau1 gwaat3 keoi5 ge3 ling5 dou6 jiu3 zeon1 zung6 keoi5
+000303 keoi5 zi2 ding6 ge3 gung1 zok3 ngo5 jing1 goi1 jyun4 seng4
+000304 jyu4 gwo2 keoi5 jau5 di1 je5 zi2 sau2 waak6 goek3 ngo5 dei2 ho2 ji5 si1 dai2 haa5 kau1 tung1
+000305 m4 lei5 hai6 hai2 kei5 jip6 jau6 hou2 gei1 gwaan1 jau6 hou2 si6 jip6 daan1 wai2 jau6 hou2
+000306 ling5 dou6 gong2 ceot1 ge3 je5 ngo5 dei2 bit1 seoi1 jiu3 zap1 haang4
+000307 jau5 mat1 je5 m4 aam1 ge3 dei6 fong1 ho2 ji5 tung4 keoi5 kau1 tung1 ngo5 dei2 jing1 goi1 zou6 dou2 ne1 jat1 dim2
+000308 jan1 wai4 hou2 do1 bat1 jip6 saang1 zoeng1 wui5 min6 lam4 gam2 joeng2 ge3 man6 tai4
+000309 dak6 bit6 pei3 jyu4 bok3 si6 jik1 waak6 hai6 sek6 si6
+000310 keoi5 dei2 bat1 jip6 ge3 si4 hau6 nin4 gei2 zau6 hou2 daai6 la1
+000311 daan6 hai6 dong1 co1 keoi5 ge3 tung4 hok6
+000312 ho2 nang4 bun2 fo1 bat1 jip6 zau6 heoi3 zo2 zou6 gung1
+000313 ji5 ging1 zou6 dou2 jat1 go3 gong1 wai2 ge3 mat1 je5 bou6 mun4 ging1 lei5
+000314 dang2 go3 bok3 si6 jat1 bat1 jip6 lai4 zo2
+000315 ngo5 ge3 tung4 baan1 tung4 hok6 jik1 waak6 hai6 tung4 kap1 keoi5 zung6 zou6 zo2 ngo5 ling5 dou6 wo3 ngo5 hai6 bok3 si6 lei4 go3 wo3
+000316 hou2 do1 tung4 hok6 noi6 sam1 zau6 m4 peng4 hang4
+000317 si6 sat6 soeng5 daai6 gaa1 jiu3 jau5 jat1 go3 hou2 ge3 sam1 taai3
+000318 ne1 zung2 guk6 min6 ho2 nang4 dou1 hai6 zaam6 si4 ge3
+000319 zi2 jiu3 nei5 bei3 sam1 gei1 zou6 gung1 zung2 jau5 jat1 jat6 nei5 ge3 gaa3 zik6 dou1 wui5 tai2 jin2 ceot1 lei4
+000320 hou2 do1 daai6 hok6 saang1 hai2 teng1 jyun4 ngo5 dei2 tau4 sin1 ge3 ne1 dyun6 taam4 waa6 jing1 goi1 hai6 fong2 jin4 daai6 ng6
+000321 ngo5 go3 jan4 ge3 gun1 dim2 hai6 se5 wui5 hai6 jau5 nin4 ling4 tai1 dou6 ge3
+000322 gou1 haau6 jau4 jyu1 gaau3 juk6 ge3 man6 tai4 ho2 nang4 nin4 ling4 caa1 m4 do1
+000323 daan6 hai6 nei5 haang4 ceot1 hok6 haau6 bou6 jap6 ge3 hai6 se5 wui5
+000324 m4 ho2 nang4 jiu3 kau4 nei5 daan1 wai2 ge3 tung4 si6 nin4 ling4 jat1 ding6 jiu3 tung4 nei5 soeng2 fong2
+000325 sin1 zi3 cau3 dak1 nei5 dei2 hai2 maai4 jat1 cai4 mou5 di1 gam2 ge3 kwai1 ding6 ge3
+000326 so2 ji5 nin4 ling4 zau6 m4 jing1 goi1 haau2 leoi6 gam3 do1
+000327 ne1 go3 jik6 dou1 seoi1 jiu3 hok6 saang1 dyun3 lin6 tung4 jan4 soeng2 cyu3 ge3 nang4 lik6
+000328 tyun4 deoi2 gap3 zok3 ge3 nang4 lik6 tung4 jan4 kau1 tung1 ge3 nang4 lik6
+000329 ne1 di1 dou1 hai6 jat1 zung2 haau2 jim6
+000330 ne1 zung2 haau2 jim6 deoi3 jyu1 mei6 lai4 gok3 wai2 tung4 hok6 ge3 seng4 coi4 jik6 dou1 jau5 fei1 soeng4 daai6 ge3 jik1 cyu3
+000331 baau1 gwaat3 nei5 ji5 hau6 jiu3 zou6 gung1 si1 ling5 dou6
+000332 jik1 waak6 hai6 nei5 soeng2 zou6 jat1 go3 jau1 sau3 jyun4 gung1
+000333 ne1 zung2 kau1 tung1 lik6 jing4 zeoi6 lik6 dou1 hai6 zi6 gei2 bit1 bei6 ge3 nang4 lik6
+000334 tung4 hok6 hai2 aam1 bat1 jip6 zam6 si4 zung6 wui5 jau5 jat1 zung2 kwan3 waak6
+000335 hai2 haau2 gung1 mou6 jyun4 tung4 maai4 zau6 jip6 zi1 gaan1 zou6 syun2 zaak6
+000336 dim2 gaai2 ngo5 dat6 jin4 nam2 dou2 ne1 go3 man6 tai4 ne1
+000337 jan1 wai4 nei5 dat6 jin4 gong2 jau5 jat1 go3 bok3 si6 bat1 zo2 jip6
+000338 heoi3 zo2 go3 daan1 wai2 heoi3 tai2 haa5 hai6 zi6 gei2 bun2 fo1 ge3 tung4 hok6
+000339 kei4 sat6 jan4 dei6 gam2 do1 nin4 dyun3 lin6 ceot1 lai4 seng4 wai4 ling5 dou6 keoi5 zau6 bat1 peng4 hang4 wo3
+000340 loeng5 wai2 lou5 si1 dim2 heoi3 tai2 doi6 ji4 gaa1 bun2 fo1 zau6 jip6 tung4 gai3 zuk6 haau2 jin4 ne1 loeng5 ze2 ge3 gwaan1 hai6 ne1
+000341 hou2 ci5 haau2 jin4 tung4 zau6 jip6 tai2 nei5 zi6 gei2 dim2 heoi3 ding6 wai2 dim2 heoi3 cyu3 lei5
+000342 jau5 di1 jan4 ceot1 lei4 zou6 gung1 sin1 gan1 zyu6 sin1 zi3 haau2 jin4
+000343 deoi3 keoi5 ge3 hok6 zaap6 deoi3 keoi5 ge3 zi1 sik1 lei5 gaai2 ho2 nang4 jau5 lei6 di1
+000344 jyu4 gwo2 nei5 hai6 gaau2 jin4 gau3 go2 di1 jan4 jau4 bun2 fo1 zik6 zip3 haau2 jin4 gan1 zyu6 duk6 bok3 zau6 bei2 gaau3 hou2
+000345 soeng2 zou6 gun2 lei5 jik1 waak6 hai6 zou6 dai6 joeng2 ge3 duk6 zo2 bun2 fo1 sin1
+000346 ceot1 lai4 zou6 je5 gan1 zyu6 haau2 jin4 hok6 zaap6
+000347 jau5 jat1 ding6 ge3 se5 wui5 ging1 jim6 zi1 hau6 zoi3 heoi3 duk6 jin4 gau3 saang1 jik6 dou1 hai6 jat1 go3 hou2 ge3 syun2 zaak6
+000348 kei4 sat6 ji4 gaa1 hou2 do1 hok6 saang1 dou1 hai6 bei2 gaau3 maang4 muk6 ge3 baau1 gwaat3 bun2 fo1 ge3 hok6 saang1
+000349 hou2 do1 tung4 hok6 daai6 jat1 ge3 tung4 hok6 nei5 man6 keoi5 nei5 sei3 nin4 zi1 hau6 soeng2 zou6 di1 mat1 je5
+000350 gau2 seng4 ge3 tung4 hok6 dou1 waa6 soeng2 haau2 jin4
+000351 dim2 gaai2 jiu3 heoi3 haau2 ne1 zung6 jau5 mou5 dai6 joeng2 syun2 zaak6 ne1 keoi5 gan1 bun2 zau6 m4 zi1
+000352 dang2 dou2 daai6 saam1 zau6 lei4 bou3 meng2 ge3 si4 hau6 jau5 jat1 bou6 fan1 jan4 zau6 teoi3 ceot1 zo2 go2 zam6 si4 zung6 hai6 jau5 hou2 do1 jan4 soeng2 haau2 jin4
+000353 haau2 jin4 zi1 hau6 deoi3 zi6 gei2 go3 jan4 faat3 zin2 jau5 dim2 ge3 zok3 jung6 keoi5 zung6 mei6 haau2 leoi6 dak1 hou2 sam1
+000354 dou2 zo2 zeoi3 hau6 zan1 zeng3 haau2 jin4 haau2 jin4 hai6 jat1 go3 hou2 tung3 fu2 ge3 gwo3 cing4
+000355 go2 zam6 si4 tung4 hok6 dou1 hai2 mong5 soeng5 bin1 gong2 gwo3 zyu6 zyu1 gau2 bat1 jyu4 ge3 saang1 wut6
+000356 hou2 tung3 fu2 jik6 dou1 hou2 san1 fu2
+000357 gin1 ci4 lok6 lai4 ge3 tung4 hok6 ne1 bou6 fan1 tung4 hok6 wong5 wong5 zau6 hai6 bei2 gaau3 zap1 zoek3 ge3
+000358 jing6 wai4 haau2 jin4 deoi3 ngo5 jan4 saang1 ge3 faat3 zin2 jik1 waak6 hai6 deoi3 ngo5 ge3 zik1 jip6 kwai1 waak6 hou2 gan2 jiu3
+000359 pei3 jyu4 ji5 hau6 ngo5 soeng2 heoi3 jin4 gau3 jyun2 zou6 je5
+000360 ngo5 soeng2 zou6 jat1 go3 gou1 haau6 ge3 lou5 si1
+000361 gam2 zau6 jat1 ding6 jiu3 jau5 bok3 si6 hok6 wai2
+000362 sin1 zi3 ho2 nang4 soeng5 dak1 dou2 gou1 haau6 ge3 gong2 toi4
+000363 sin1 zi3 zou6 dak1 dou2 zi6 gei2 zung1 ji3 ge3 gung1 zok3
+000364 daan6 hai6 pei3 jyu4 hou2 ci5 tau4 sin1 joeng4 lou5 si1 gam2 gong2
+000365 keoi5 ji5 hau6 heoi3 cong1 jip6 heoi3 jat1 di1 kei5 si6 jip6 daan1 wai2 zou6 je5
+000366 ho2 nang4 ne1 go3 gong1 wai2 deoi3 keoi5 ge3 hok6 lik6 waak6 ze2 hai6 hok6 zaap6 ge3 jiu3 kau4 mou5 gam3 gou1
+000367 ngo5 jik6 dou1 gin3 ji5 bat1 hou2 jat1 mei6 gam3 heoi3 duk6
+000368 jan1 wai4 se5 wui5 jiu3 kau4 nei5 ge3 ging1 jim6 zung6 jau5 nei5 gung1 zok3 ge3 ging1 lik6 jik6 dou1 hai6 hou2 gan2 jiu3 ge3
+000369 jan1 wai4 gou1 haau6 kok3 ziu1 ge3 jyun4 jan1 muk6 cin4 daai6 hok6 saang1 ge3 zung1 gap3 sou3 zat1 pou2 bin3 jau5 so2 haa5 gong3
+000370 nei5 jing6 wai4 ngo5 dei2 ne1 go3 zyun1 jip6 ge3 hok6 saang1 jing1 goi1 hai2 bin1 di1 fong1 min6 zeon3 haang4 pui4 joeng5 sin1 ho2 ji5 gang3 hou2 tai4 sing1 ngo5 dei2 ge3 sou3 zat1 ne1
+000371 hai2 hok6 haau6 ji4 gaa1 ge3 mong5 lok3 gam3 faat3 daat6 nei5 ho2 ji5 hai2 mong5 lok3 soeng5 do1 di1 zip3 cuk1 zeoi3 san1 ge3 seon3 sik1
+000372 do1 di1 hok6 zaap6 sip3 kap6 gwong2 gou3 ge3 zi1 sik1 noi6 jung4 dang2 dang2
+000373 hai2 ceot1 bin1 nei5 jat1 ding6 jiu3 tung4 zau1 bin1 ge3 jan4 heoi3 hok6 zaap6
+000374 zau6 syun3 jan4 dei2 zing6 hai2 zou2 nei5 jat1 jat6 jap6 gaan1 gung1 si1
+000375 jan1 wai4 keoi5 ge3 san1 soeng5 jau5 hou2 do1 je5 zik6 dak1 nei5 hok6 zaap6
+000376 ji4 gaa1 hou2 do1 kau4 zik1 ze2 syun2 zaak6 jap6 di1 dim2 ge3 gung1 si1
+000377 hou2 zung6 jiu3 ge3 jat1 dim2 zau6 hai6 haau2 leoi6 jap6 ne1 gaa1 gung1 si1 jau5 mou5 hou2 ge3 faat3 zin2 cin4 tou4
+000378 ngo5 soeng2 man6 haa5 cung4 si6 ne1 fan6 gung1 ge3 jan4 keoi5 ge3 faat3 zin2 cin4 ging2 tung4 maai4 zeon3 sing1 gei1 wui5 hai6 dim2 joeng2 ge3 ne1
+000379 ne1 go3 zyu2 jiu3 dou1 hai6 jiu3 tai2 zi6 gei2 ge3 nang4 lik6
+000380 zuk6 waa6 dou1 jau5 gong2 la1 gai1 dau3 joeng5 m4 ceot1 fung6 wong4
+000381 jyu4 gwo2 nei5 hai6 fung6 wong4 ge3 waa6 nei5 ci4 zou2 dou1 wui5 tiu3 ceot1 haap3 zaak3 ge3 gai1 dau3
+000382 daan6 jau5 di1 gung1 si1 jyu4 gwo2 nei5 mou5 nang4 lik6 ge3 waa6
+000383 gam2 nei5 zau6 zing6 hai2 zou6 dak1 go3 gung1 zai2 jan1 wai4 mou5 ho2 nang4 go3 go3 dou1 hai6 ling5 dou6 jan4
+000384 zau6 hou2 ci5 nei5 zou6 gam2 ge3 jat1 fan6 saang1 ngaai4 jan4 mat6 fong2 taam4 wut6 dung6 jik6 waak6 hai6 jat1 fan6 saang1 ngaai4 kwai1 waak6
+000385 jyu4 gwo2 nei5 hai6 zou6 m4 ceot1 ge3 waa6 gam3 zau6 mou5 dak1 lou1 la1
+000386 daan6 jan4 jau5 ne1 zung2 hoeng3 cin4 faat3 zin2 ge3 nam2 faat3 hai6 mou5 co3 ge3
+000387 so2 ji5 nang4 lik6 zan1 hai6 hou2 gan2 jiu3
+000388 hok6 haau6 bin1 di1 fo3 cing4 jau5 zo6 jyu1 ne1 go3 haang4 jip6
+000389 zung2 tai2 lai4 gong2 dou1 hai6 jau5 bong1 zo6 ge3
+000390 daan6 hai6 daai6 gaa1 dou1 zi1 dou6 syu1 bun2 soeng5 ge3 zi1 sik1 wing5 jyun5 dou1 gon2 m4 soeng5 gei6 seot6 ge3 faat3 zin2
+000391 so2 ji5 jyu4 gwo2 nei5 hai2 ne1 go3 haang4 jip6 soeng2 faat3 zin2 lok6 heoi3 ne1
+000392 zau6 m4 hou2 zing6 hai2 hok6 syu1 soeng5 bin1 di1 je5 jiu3 do1 dung6 sau2
+000393 gam2 joeng2 heoi3 hok6 zau6 do1 gwo3 nei5 soeng5 tong4 hok6 di1 je5 hou2 do1 la1
+000394 ngo5 dei2 zyun1 jip6 hai2 daai6 saam1 go2 zam6 si4 jau5 jat1 go3 sat6 zaap6 hai2 sat6 zaap6 zi1 cin4 ngo5 dei2 seoi1 jiu3 hai2 bin1 di1 fong1 min6 zou6 zeon2 bei6 ne1
+000395 sau2 sin1 so1 lei5 zi6 gei2 gei3 jau5 ge3 zyun1 jip6 zi1 sik1 nang4 lik6
+000396 haak3 gun1 gam2 heoi3 ping4 gaa3 zi6 gei2 ge3 jau1 sai3 tung4 maai4 lyut3 sai3 zeon2 ho2 nang4 zou6 dou2 joeng4 coeng4 bou2 dyun2
+000397 kei4 ci3 jau5 muk6 dik1 gam2 tai4 cin4 so2 ding6 jat1 di1 sat6 zaap6 daan1 wai2
+000398 jau5 zam1 deoi3 sing3 gam2 heoi3 zeon3 haang4 jat1 di1 gwaan1 zyu3 tung4 maai4 diu6 jin4
+000399 zou6 dou2 jau5 dik1 fong3 ci2
+000400 zeoi3 hau6 dou1 ho2 ji5 jyut6 duk6 haa5 di1 jan4 zai3 gaau1 wong5 se5 gaau1 lai5 ji4 ge3 zi1 sik1
+000401 lik6 kau4 hai2 sai3 zit3 fong1 min6 dou1 zou6 dou2 wai2
+000402 jik6 dou1 ho2 ji5 tung4 wong5 gaai3 si1 hing1 si1 ze1 ceng2 gaau3 haa5 sat6 zaap6 ge3 ging1 jim6
+000403 lei6 jyu1 gaau3 faai3 gam2 heoi3 sik1 jing1 gok3 sik1 tung4 maai4 sam1 taai3 ge3 zyun3 wun6
+000404 peng4 si4 hai2 gung1 zok3 fong1 min6 nei5 mui5 jat6 zou6 di1 mat1 je5 gung1 ne1 nei5 deoi3 jin2 zong6 mun5 m4 mun5 ji3 ne1
+000405 jan1 wai4 ngo5 hai6 zou6 jin4 faat3 ge3 so2 ji5 hou2 do1 si4 hau4 jiu3 tai2 syu1 tung4 maai4 zou6 sat6 jim6 dou1 gei2 jau5 sau1 wok6
+000406 ngo5 zau6 hou2 zung1 ji3 ji4 gaa1 fan6 gung1
+000407 ngo5 gok3 dak1 keoi5 ji4 gaa1 ho2 ji5 sing4 zoi3 ngo5 deoi3 zik1 jip6 ge3 go2 di1 soeng2 zoeng6
+000408 jik6 dou1 fu4 gap3 ngo5 ji4 gaa1 ge3 kei4 mong6
+000409 nei5 jing6 wai4 dim2 joeng2 sin1 zi3 zou6 dak1 hou2 ne1 fan6 gung1 ne1
+000410 jing1 goi1 geoi6 bei6 bin1 di1 zi1 sik1 gei6 nang4 tung4 maai4 ging1 jim6 ne1
+000411 jam6 ho4 gung1 zok3 dou1 hai6 seoi1 jiu3 jat1 go3 jan4 cyun4 sam1 cyun4 ji3 gam2 heoi3 tau4 jap6
+000412 zung6 jing1 goi1 mun5 hong1 jit6 cing4
+000413 zung1 ji3 keoi5 hai6 zou6 hou2 ge3 cin4 tai4
+000414 ngo5 zau6 gok3 dak1 hou2 do1 zi1 sik1 gei6 nang4 jik6 waak6 hai6 ging1 jim6 zi1 cin4 dou1 hai6 mou5 ge3
+000415 ji4 gang3 do1 hai6 hai2 zeon3 jap6 zo2 gung1 zok3 zi1 hau6
+000416 pou5 zyu6 jat1 zung2 hoi1 fong3 baau1 jung4 him1 heoi1 hou2 kei4 ge3 taai3 dou6 maan6 maan6 hok6 dou2 ge3
+000417 dong1 jin4 nei5 dei2 ji4 gaa1 ho2 ji5 do1 di1 tai2 haa5 ne1 fong1 min6 ge3 syu1 zik6
+000418 liu5 gaai2 haa5 haang4 jip6 ge3 soeng2 gwaan1 dung6 taai3 kok3 ding6 zi6 gei2 jin4 gau3 ge3 fong1 hoeng3
+000419 gam2 zau6 ho2 ji5 wai4 nei5 zi1 hau6 ge3 gung1 zok3 daa2 haa5 loeng4 hou2 ge3 gei1 co2
+000420 hai2 haang4 jip6 noi6 daan1 wai2 deoi3 ne1 go3 ling5 wik6 ge3 san1 jyun4 gung1 jau5 mou5 zeon3 haang4 pui4 fan3 ne1
+000421 jyu4 gwo2 jau5 zyu2 jiu3 hai6 bin1 fong1 min6 ge3 pui4 fan3 ne1
+000422 gam1 hau6 ngo5 dei2 jing1 goi1 tai4 gou1 bin1 di1 fong1 min6 ge3 zat1 sou3 ne1
+000423 zung6 jau5 mou5 gai3 zuk6 sam1 zou6 ge3 gei1 wui5 ne1
+000424 mui5 jat1 go3 san1 jap6 ge3 jyun4 gung1 dou1 wui5 zeon3 haang4 jat1 hai6 lit6 soeng2 gwaan1 ge3 pui4 fan3
+000425 noi6 jung4 zyu2 jiu3 hai6 deoi3 san1 jap6 jyun4 gung1 pui4 fan3 soeng2 gwaan1 ge3 gei6 nang4
+000426 dang2 jyun4 gung1 ho2 ji5 zoeng1 hok6 haau6 lei5 bin1 hok6 dou2 ge3 zi1 sik1 gang3 hou2 gam2 zyun3 faa3 wai4 soeng2 jung6 ge3 gei6 nang4
+000427 ceoi4 zo2 bou6 mun4 zi6 gei2 zou2 zik1 ge3 hok6 zaap6 zi1 ngoi6
+000428 gung1 si1 mui5 nin4 dou1 wui5 zou2 zik1 faan1 pui4 fan3
+000429 ling6 daai6 gaa1 gang3 hou2 gam2 liu5 gaai2 dong1 cin4 haang4 jip6 ge3 san1 gei6 seot6 san1 dung6 taai3
+000430 zeng3 sik1 zeon3 jap6 gung1 zok3 gong1 wai2 zi1 hau6
+000431 jiu3 kau4 mui5 go3 jan4 dou1 jau5 jat1 ding6 ge3 gei6 nang4
+000432 ho2 ji5 duk6 laap6 min6 deoi3 jat1 di1 man6 tai4
+000433 hai2 gei6 seot6 fong1 min6 jiu3 kau4 wui5 bei2 gaau3 do1
+000434 hai2 sam1 zou6 fong1 min6 gung1 si1 bei2 gaau3 zi1 ci4 daai6 gaa1 zeon3 haang4 gang3 gaa1 gou1 cang4 ge3 hok6 zaap6
+000435 gung1 si1 jat1 go3 lai5 baai3 jat1 ci3 ge3 duk6 syu1 wui5 zau6 hai6 gei2 hou2 ge3 lai6 zi2 la1
+000436 hai2 nei5 ge3 gung1 zok3 ling5 wik6 jap6 bin1 co1 kap1 zik1 wai2 tung4 maai4 loek6 gou1 kap1 bit6 zik1 wai2 ge3 jan4 gung1 jat1 baan1 hai6 me1 seoi2 peng4 ne1
+000437 mui5 gaan1 gung1 si1 ge3 san1 cau4 seoi2 peng4 dou1 m4 tung4 ge3 hou2 naan4 jau5 tung2 jat1 ge3 biu1 zeon2
+000438 gam2 cung4 si6 ne1 fan6 gung1 ge3 jan4 hai2 daan1 wai2 jik1 waak6 hai6 tung4 haang4 jip6 zi1 noi6 ge3 faat3 zin2 cin4 ging2 hai6 dim2 joeng2 ne1
+000439 ji4 gaa1 haang4 jip6 gei3 jau5 ge3 jan4 jyun4 gau3 seng4 m4 hai6 gei2 gap3 lei5
+000440 zeon2 gun2 zou6 ne1 haang4 ge3 jan4 hou2 do1
+000441 daan6 hai6 kyut3 siu2 ho2 ji5 duk6 dong1 jat1 min6 ge3 jau1 sau3 jin4 faat3 jan4 coi4
+000442 zung2 tai2 lai4 gong2 zau6 hai6 gou1 cang4 jan4 coi4 kyut3 siu2 dai1 cang4 jan4 jyun4 faan6 laam5
+000443 so2 ji5 deoi3 jyu1 mui5 jat1 go3 soeng2 hai2 ne1 go3 haang4 jip6 jau5 so2 faat3 zin2 ge3 jan4 lai4 gong2
+000444 gei1 jyu6 tung4 maai4 tiu1 zin3 hai6 bing6 cyun4 ge3
+000445 mou5 can1 san1 ge3 ging1 lik6 zau6 mou5 baan6 faat3 tai2 cing1 dong1 gam1 zau6 jip6 jing4 sai3 ge3 zan1 sat6 zong6 fong3
+000446 zau6 zi2 nang4 gau3 ling6 zi6 gei2 gaak3 zyut2 hai6 se5 wui5 zi1 ngoi6
+000447 se5 wui5 ge3 fuk1 zaap6 do1 joeng2 bin3 waan6 mok6 caak1
+000448 nei5 hai2 syu1 bun2 mong5 lok3 tung4 maai4 hok6 haau6 ne1 hai6 mou5 baan6 faat3 gam2 sau6 tung4 maai4 dung6 caat3 ge3
+000449 ji4 ce2 ngo5 hok6 gan2 din6 zi2 zyun1 jip6
+000450 jyu4 gwo2 m4 liu5 gaai2 zi6 gei2 hoeng3 wong5 ge3 zik1 jip6 tung4 maai4 haang4 jip6 deoi3 jan4 jyun4 ge3 jiu3 kau4
+000451 hai2 hok6 haau6 zi6 gei2 zau6 mou5 baan6 faat3 gang3 gaa1 zam1 deoi3 sing3 gam2 heoi3 hok6 zaap6
+000452 ji5 hau6 wan2 sat6 zaap6 daan1 wai2 wan2 gung1 jik1 waak6 hai6 cong1 jip6 zau6 mou5 zo2 jau1 sai3 la1 maa5
+000453 dai6 jiu3 zung6 si6 tung4 maai4 zing1 tung1 zi6 gei2 ge3 zyun1 jip6 zi1 sik1
+000454 zung1 gwok3 ge3 din6 zi2 caan2 jip6 hai2 dou6 fung4 but6 faat3 zin2 gan2
+000455 din6 zi2 gei6 seot6 jat6 san1 jyut6 ji6
+000456 daan6 hai6 zung1 dai1 cang4 ci3 ge3 zau6 jip6 gong1 wai2 ging1 ji5 zip3 gan6 baau2 wo4
+000457 zau6 jip6 jing4 sai3 bat1 jung4 lok6 gun1
+000458 daan6 hai6 haang4 jip6 zi1 zung1 jing4 jin4 hou2 kyut3 fat6 gou1 zing1 zim1 jan4 coi4
+000459 din6 zi2 haang4 jip6 ge3 gung1 si1 jat1 baan1 dou1 wui5 deoi3 san1 jap6 gung1 si1 ge3 jyun4 gung1 zeon3 haang4 jat1 ding6 ge3 pui4 fan3
+000460 daan6 go2 di1 pui4 fan3 dou1 hai6 fei1 soeng4 zi1 gaan2 daan1 ge3
+000461 ji4 ce2 ne1 di1 dou1 hai6 gin3 laap6 hai2 san1 jyun4 gung1 jyun4 jau5 ge3 zi1 sik1 tung4 maai4 gei6 nang4 gei1 co2 zi1 soeng5 ge3
+000462 gung1 si1 jat1 baan1 m4 wui5 sung3 san1 jyun4 gung1 heoi3 zyun1 mun4 ge3 pui4 fan3 gei1 gau3 lai4 pui4 fan3
+000463 so2 ji5 ngo5 dei2 jiu3 cung1 fan1 lei6 jung6 zoi6 haau6 hok6 zaap6 si4 gaan1
+000464 bat1 tyun5 ban6 sat6 ngo5 dei2 ge3 zyun1 jip6 gei1 co2 zi1 sik1
+000465 tung4 maai4 tai4 gou1 zi6 gei2 ge3 zyun1 jip6 gei6 nang4
+000466 jiu3 hang2 hok6 hang2 zyun3 hang2 heoi3 zing1 jik1 kau4 zing1
+000467 ji4 ce2 ngo5 dei2 jiu3 kan4 dung6 sau2 do1 di1 pui4 joeng5 ngo5 dei2 ge3 dung6 sau2 nang4 lik6
+000468 ci2 ngoi6 gwong2 faan6 sip3 lip6 gok3 fong1 min6 ge3 bou3 hon1 syu1 zik6 gwaan1 zyu3 haang4 jip6 dung6 taai3
+000469 kok3 ding6 zi6 gei2 ge3 jin4 gau3 fong1 hoeng3
+000470 tai4 gou1 zi6 gei2 ge3 zung1 gap3 jip6 mou6 sou3 zat1 tung4 maai4 zyun1 jip6 ging6 zaang1 sat6 lik6
+000471 bat1 tyun5 taap3 zin2 zi6 gei2 ge3 jau1 sai3 tung4 maai4 seng4 gung1 gun2 dou6
+000472 ji6 jiu3 hok6 hou2 jing1 man4
+000473 min6 deoi3 cyun4 kau4 faa3 ge3 gam1 jat6 dak6 bit6 hai6 din6 zi2 caan2 jip6
+000474 mui5 jat6 dou1 jiu3 min6 deoi3 jat6 san1 jyut6 ji6 ge3 bin3 faa3 jing1 man4 gei2 gam3 zung6 jiu3 zau6 m4 sai2 gong2 la1
+000475 nei5 jiu3 hok6 zaap6 gwok3 ngoi6 ge3 sin1 zeon3 lei5 leon6 tung4 maai4 gei6 seot6
+000476 ceot1 gwok3 lau4 hok6 go2 zam6 si4 zau6 jat1 ding6 jiu3 hok6 jing1 man4
+000477 dai6 saam1 jiu3 hok6 sik1 zou6 jan4 ge3 fong1 faat3
+000478 sai2 do1 di1 sam1 gei1 ging1 jing4 zi6 gei2 ge3 gwaan1 hai6 mong5
+000479 daai6 hok6 m4 daan1 zi2 hai6 hok6 zaap6 ge3 lok6 jyun4 gang3 gaa1 hai6 juk6 jan4 ge3 sing3 dei6
+000480 hok6 sik1 zou6 jan4 hai6 ngo5 dei2 daai6 hok6 saang1 bit1 sau1 ge3 jat1 mun4 fo3 cing4
+000481 ji4 gaa1 hai2 hok6 haau6 duk6 syu1 ge3 ngo5 dei2
+000482 gaau1 zai3 gyun6 guk6 haan6 hai2 can1 jan4 tung4 hok6 tung4 maai4 siu2 sou3 pang4 jau2
+000483 fei1 soeng4 zi1 haap3 zaak3 deoi3 zi6 gei2 gam1 hau6 saang1 ngaai4 ge3 faat3 zin2 fei1 soeng4 zi1 bat1 lei6 ge3
+000484 so2 ji5 ngo5 dei2 jing1 goi1 jau4 ji4 gaa1 hoi1 ci2 gang3 gaa1 zung6 si6 pui4 joeng5 zi6 gei2 wai4 jan4 cyu3 sai3 ge3 nang4 lik6 tung4 maai4 ging1 jing4 wai4 wu6 hou2 zi6 gei2 ge3 jan4 mak6 zi1 jyun4
+000485 dai6 sei3 jiu3 baai2 zeng3 sam1 taai3 deoi3 gung1 zok3 jiu3 jim4 gan2 jing6 zan1 fu6 zaak3
+000486 lok6 gun1 gam2 heoi3 min6 deoi3 haang4 jip6 zoeng1 lai4 ge3 faat3 zin2 cin4 ging2
+000487 dai6 ng5 jiu3 zik1 gik6 tau4 san1 sat6 cin5 heoi3 ging1 lik6 gam2 sau6 tung4 maai4 ling5 wui5
+000488 wok6 ceoi2 zi1 sik1 tung4 maai4 tai4 gou1 gei6 nang4 jau5 loeng5 go3 baan6 faat3
+000489 jat1 hai6 jau4 cin4 jan4 ging1 jim6 heoi3 wok6 ceoi2
+000490 ji6 hai6 tung1 gwo3 zi6 gei2 ge3 sat6 cin5 heoi3 wok6 ceoi2
+000491 ji4 zeoi3 gan2 jiu3 zeoi3 ho2 kaau3 zeoi3 jau5 gaa3 zik6 ge3 zung6 hai6 zi6 gei2 hai2 sat6 cin5 lei5 bin1 wok6 dak1 ge3 zi1 sik1 tung4 maai4 gei6 nang4
+000492 jyu4 gwo2 nei5 zik1 gik6 tau4 san1 sat6 cin5 hai2 sat6 cin5 zung1 hok6 zaap6
+000493 nei5 wui5 faat3 jin2 saang1 wut6 tung4 maai4 gung1 zok3 mou5 soeng2 zoeng6 gam3 naan4
+000494 han2 do1 je5 m4 hai6 zou6 m4 zou6 dak1 dou2 ge3 man6 tai4
+000495 ji4 hai6 soeng2 bat1 soeng2 zou6 ge3 man6 tai4
+000496 jyu4 gwo2 nei5 soeng2 zou6 nei5 wui5 heoi3 wan2 fong1 faat3
+000497 nei5 jyu4 gwo2 bat1 soeng2 zou6 nei5 zau6 wui5 wan2 jat1 daai6 deoi1 lei5 jau4
+000498 mou5 leon6 git3 gwo2 hai6 dim2 joeng2 nei5 wok6 dak1 ge3 tai2 wui5 tung4 maai4 jyut6 lik6 hai6 nei5 ne1 jat1 sai3 ge3 coi4 fu3
+000499 fun1 jing4 daai6 gaa1 gwong1 lam4 ngo5 dei2 gam1 jat6 ge3 gaa1 ban1 liu4 tin1 sat1
+000500 ji5 haa5 hai6 ne1 ci3 fong2 taam4 ge3 sat6 luk6
+000501 hai2 cin4 bin1 cat1 kei4 ge3 zit3 muk6 lei5 bin1 ne1 tung4 daai6 gaa1 gung6 tung4 gwaan1 zyu3 zo2 hou2 do1 daai6 hok6 saang1 zau6 jip6 ge3 jit6 dim2 waa6 tai4
+000502 hai2 gam1 jat6 ge3 zit3 muk6 dong1 zung1 zoeng1 wui5 gai3 zuk6 gwaan1 zyu3 ngo5 dei2 ge3 jit6 dim2 waa6 tai4 zi1 jat1
+000503 zau6 hai6 dong1 nei5 jau4 jyu6 gan2 jat1 go3 daai6 gung1 si1 ge3 sai3 zik1 wai2 tung4 maai4 jat1 go3 sai3 gung1 si1 ge3 daai6 zik1 wai2 ge3 si4 hau6
+000504 jing1 goi1 dim2 joeng2 heoi3 gaan2 ne1
+000505 jung6 jat1 geoi3 zuk6 waa6 lei4 gong2 zau6 hai6 dong1 nei5 hai2 None gai1 tau4 None tung4 maai4 None fung6 mei5 None zi1 gaan1 syun2 zaak6 ge3 si4 hau6
+000506 nei5 hai6 ning4 jyun6 zou6 faan1 go3 None gai1 tau4 None ding6 hai6 zou6 jat1 go3 None fung6 mei5 None
+000507 jik6 dou1 hai6 hou2 do1 daai6 hok6 saang1 pang4 jau2 muk6 cin4 zau6 jip6 min6 lam4 ge3 zeoi3 daai6 kwan3 waak6 zi1 jat1
+000508 gam1 jat6 hai2 ngo5 dei2 zit3 muk6 dong1 zung1 zoeng1 wui5 tung4 daai6 gaa1 jat1 cai4 lai4 taam3 tou2
+000509 on3 ziu3 lau4 cing4 sau2 sin1 soeng2 ceng2 loeng5 wai2 lou5 si1 gaan2 daan1 tung4 daai6 gaa1 gaai3 siu6 faan1 leng4 baat3 nin4 tung4 hok6 ge3 zung2 tai2 cing4 fong3
+000510 sau2 sin1 ngo5 soeng2 gaai3 siu6 haa5 ngo5 dei2 hok6 haau6 ge3 zing2 tai2 cing4 fong3
+000511 bak1 ging1 gung1 soeng1 daai6 hok6 hai6 bak1 ging1 si5 zung6 dim2 gin3 cit3 ge3 jat1 go3 zung1 gap3 jing4 daai6 hok6
+000512 gau2 gau2 nin4 luk6 jyut6 jau4 jyun4 sin1 ge3 bak1 ging1 heng1 gung1 jip6 hok6 jyun2 tung4 bak1 ging1 soeng1 hok6 jyun2 gap3 bing3 bak1 ging1 gei1 haai6 gon3 bou6 gun2 lei5 hok6 jyun2 zou2 gin3 ji4 seng4
+000513 bak1 ging1 heng1 gung1 jip6 hok6 jyun2 tung4 bak1 ging1 soeng1 hok6 jyun2 fan1 bit6 suk6 jyu1 jyun4 lei4 ge3 heng1 gung1 jip6 bou6 tung4 maai4 gwok3 noi6 mau6 ji6 bou6
+000514 bak1 ging1 soeng1 hok6 jyun2 cong1 gin3 jyu1 jat1 gau2 ng5 leng4 nin4
+000515 bak1 ging1 heng1 gung1 jip6 hok6 jyun2 cong1 gin3 jyu1 jat1 gau2 ng5 baat3 nin4
+000516 dou2 ji4 gaa1 hok6 haau6 wai4 gwok3 gaa1 pui4 joeng5 zo2 zoeng1 gan6 sap6 maan6 meng2 gwok3 noi6 gok3 gaai3 zyun1 mun4 jan4 coi4
+000517 loeng5 gaan1 hok6 haau6 gap3 bing3 zi1 hau6 hok6 haau6 ge3 zung1 gap3 sat6 lik6 hin2 zyu3 zang1 koeng4 zo2
+000518 lei4 dou2 zo2 jat1 go3 san1 ge3 faat3 zin2 si4 kei4
+000519 jau4 daan1 fo1 sing3 ge3 daai6 hok6 faat3 zin2 seng4 wai4 ji5 ging1 zai2 hok6 gun2 lei5 hok6 gung1 hok6 wai4 zyu2
+000520 ging1 gun2 gung1 lei5 man4 faat3 si2 dang2 hok6 fo1 soeng2 wu6 zi1 caang3 ge3 hip3 diu6 faat3 zin2 ge3 daai6 hok6
+000521 hok6 haau6 hai6 laap6 zuk1 jyu1 bak1 ging1 fuk6 mou6 sau2 dou1 min6 hoeng3 cyun4 gwok3
+000522 ji5 gou1 seoi2 peng4 ge3 jan4 coi4 pui4 joeng5 fo1 hok6 jin4 gau3 se5 wui5 fuk6 mou6
+000523 wai4 gwok3 gaa1 jau4 kei4 hai6 wai6 sau2 dou1 ge3 ging1 zai2 gin3 cit3 tung4 maai4 se5 wui5 faat3 zin2 gung3 hin3 lik6 loeng6
+000524 hok6 haau6 ji4 gaa1 zeng3 hai2 dou6 jau4 gaau3 hok6 jing4 daai6 hok6 zuk6 zim1 hoeng3 zyu6 gaau3 hok6 jin4 gau3 jing4 daai6 hok6 zyun3 bin3 ge3 jat1 go3 si4 kei4
+000525 hok6 haau6 pui4 joeng5 dak1 coi4 gim1 bei6 zi3 hing1 gap3 jat1 geoi6 jau5 zaak3 jam6 gam2 ge3 fuk1 gap3 jing4 tung4 jing1 jung6 jing4 ge3 jan4 coi4
+000526 ngo5 dei2 hok6 haau6 zoi6 haau6 jat1 gung6 hai6 jau5 bun2 fo1 saang1 jat1 maan6 ji6 cin1 gei2 meng2 jin4 gau3 saang1 jat1 cin1 sei3 baak3 gei2 meng2
+000527 gam1 nin4 hok6 haau6 ge3 zau6 jip6 gung1 zok3 ceoi2 dak1 bei2 gaau3 hou2 ge3 seng4 zik1
+000528 hai2 leng4 luk6 nin4 tung4 leng4 cat1 nin4 zau6 jip6 leot6 ciu1 gwo3 zo2 bak1 ging1 dei6 keoi1 gou1 haau6 ge3 peng4 gwan1 zau6 jip6 leot6
+000529 zau6 jip6 zat1 loeng6 hai2 dou6 bat1 tyun5 tai4 gou1
+000530 pei3 jyu4 waa6 ngo5 dei2 wui5 gai3 hok6 jyun2 leng4 cat1 gaai3 bat1 jip6 saang1 jap6 bin1
+000531 jau5 baak3 fan1 zi1 jaa6 sei3 ge3 bat1 jip6 saang1 hai2 sai3 gaai3 ng5 baak3 koeng4 kei5 jip6 zau6 jip6
+000532 ngo5 dei2 ge3 bat1 jip6 saang1 hai2 kei5 jip6 gung1 zok3 gwo3 cing4 jap6 bin1 jing6 zan1 daap6 sat6
+000533 hai2 kei5 jip6 ge3 cyun4 wut6 leot6 tung4 cyun4 zoi6 leot6 dou1 fei1 soeng4 zi1 gou1
+000534 pou2 bin3 sau6 dou2 jung6 jan4 daan1 wai2 ge3 hou2 ping4
+000535 leng4 baat3 nin4 ngo5 dei2 hok6 haau6 jat1 gung6 jau5 saam1 cin1 ji6 baak3 luk6 sap6 cat1 meng2 bun2 fo1 bat1 jip6 saang1
+000536 jat1 gung6 saam1 sap6 ji6 go3 bun2 fo1 zyun1 jip6
+000537 ling6 ngoi6 jau5 jaa6 ji6 go3 jin4 gau3 fong1 hoeng3 ge3 bat1 jip6 jin4 gau3 saang1 sei3 baak3 leng4 ng5 meng2
+000538 bat1 jip6 saang1 zyu2 jiu3 lei4 zi6 cyun4 gwok3 ge3 saam1 sap6 jat1 go3 saang2 si5
+000539 ngo5 dei2 ge3 bat1 jip6 saang1 zau6 jip6 gung1 zok3 hai2 dou6 jau5 zeoi6 zeon3 haang4 gan2
+000540 ngo5 dei2 hok6 haau6 ling5 dou6 deoi3 bat1 jip6 gung1 zok3 ne1 fong1 min6 hou2 zung6 si6
+000541 zoeng1 keoi5 zok3 wai4 jat1 baa2 sau2 gung1 cing4
+000542 hok6 haau6 dong2 wai1 haang4 zing3 ge3 jat1 baa2 sau2 ling5 dou6 can1 zi6 zaa1 zau6 jip6
+000543 ling6 ngoi6 hai2 jan4 jyun4 git3 gau3 coeng4 dei6 ging1 fai3 fong1 min6 dou1 jau5 bei3 dou2 cung1 fan1 ge3 bou2 zing3
+000544 baau1 gwaat3 bun1 ngo5 dei2 ge3 baan6 gung1 dim2 heoi3 hou2 fut3 lok6 ge3 baan6 gung1 jung6 dei6 zou6 zau6 jip6 zi2 dou6
+000545 ling6 ngoi6 ngo5 dei2 zung6 jau5 baak3 gei2 fong1 ge3 zyun1 mun4 ge3 ziu1 ping3 sat1
+000546 ngo5 dei2 hok6 haau6 hai2 zau6 jip6 fong1 min6 zeon3 haang4 zyun1 jip6 faa3 seon3 sik1 faa3 gin3 cit3 ge3 tung4 si4
+000547 ngo5 dei2 jik6 dou1 jau4 saam1 go3 waan4 zit3 lai4 cuk1 zeon3 zau6 jip6
+000548 dai6 jat1 go3 zau6 hai6 gin3 laap6 bat1 jip6 saang1 zau6 jip6 dong3 on3 tung4 mui5 go3 bat1 jip6 saang1 gin3 laap6 zau6 jip6 dong3 on3
+000549 zau6 jip6 dong3 on3 zyu2 jiu3 baau1 ham4 bat1 jip6 saang1 ge3 gei1 bun2 cing4 fong3 zau6 jip6 ceoi2 hoeng3
+000550 baau1 gwaat3 keoi5 ge3 zau6 jip6 kei4 mong6 hok6 jip6 cing4 fong3 tung4 maai4 keoi5 ge3 kwan3 naan4
+000551 ling6 ngoi6 zau6 jip6 dong3 on3 zung6 baau1 gwaat3 bat1 jip6 saang1 ge3 teoi1 gaai3 cing4 fong3
+000552 jau4 kei4 hai6 jau5 jat1 go3 lou5 si1 deoi3 hok6 saang1 jat1 deoi3 jat1 zi2 dou6 ge3 taam4 waa6 gei3 luk6
+000553 mui5 go3 hok6 saang1 dou1 jiu3 zou6 dou2 jat1 deoi3 jat1 taam4 waa6
+000554 zeoi3 hau6 hai6 bat1 jip6 saang1 heoi3 hoeng3 ge3 cing4 fong3 zau6 hai6 bat1 jip6 saang1 heoi3 zo2 bin1 dou6 zau6 jip6
+000555 ngo5 dei2 tung1 gwo3 bat1 jip6 saang1 zau6 jip6 dong3 on3 ge3 gin3 laap6 sai3 faa3 zo2 ngo5 dei2 ge3 zau6 jip6 zi2 dou6
+000556 deoi3 hai2 zau6 jip6 gwo3 cing4 dong1 zung1 biu2 jin2 dak1 hou2 ge3 jyun2 hai6 tung4 go3 jan4 zeon3 haang4 zoeng2 lai6
+000557 gik1 faat3 zau6 jip6 gung1 zok3 ze2 ge3 gung1 zok3 jit6 cing4
+000558 dai6 saam1 hoi1 taap3 si5 coeng4 sai3 faa3 mui5 jat1 go3 waan4 zit3
+000559 ngo5 dei2 gan1 geoi3 hok6 haau6 ge3 ding6 wai2 tung4 zyun1 jip6 dak6 sik1 hoi1 taap3 ngo5 dei2 ge3 zau6 jip6 si5 coeng4
+000560 jat1 baan1 hai6 zoeng1 ging1 zeon1 tong4 waan4 but6 hoi2 coeng4 saam1 gok3 zyu1 saam1 gok3 zok3 wai4 ngo5 dei2 coeng4 kei4 hoi1 faat3 ge3 dei6 keoi1
+000561 ngo5 dei2 hai2 ne1 loeng5 nin4 gin3 dou2 zan3 hing1 dung1 bak1 lou5 gung1 jip6 ge3 seon3 sik1 zi1 hau6
+000562 jau6 zoeng1 dung1 bak1 zok3 wai4 ngo5 dei2 hoi1 taap3 si5 coeng4 ge3 jat1 go3 dei6 keoi1
+000563 zoeng1 ngoi6 soeng1 zaap6 tyun4 zok3 wai4 ngo5 dei2 ge3 zau6 jip6 gei1 dei6
+000564 ling6 ngoi6 ngo5 dei2 zung6 jau5 jat1 di1 goi2 gaak3 ge3 soeng4 si3
+000565 hok6 haau6 lei5 bin1 syun2 ding6 zo2 jat1 di1 kei5 jip6 zok3 wai4 ngo5 dei2 gaau3 hok6 sat6 zaap6 zau6 jip6 jat1 tiu4 lung4 ge3 gei1 dei6
+000566 gau6 nin4 gei1 haai6 hok6 jyun2 tung4 gwong2 dung1 soeng1 cin2 cuk1 din6 ci4 jau5 haan6 gung1 si1 daat6 seng4 zo2 gap3 zok3
+000567 jau4 ngo5 dei2 ge3 lou5 si1 daai3 zyu6 di1 bat1 jip6 saang1 heoi3 sat6 zaap6
+000568 zeoi3 hau6 jau5 baat3 wai2 tung4 hok6 tung4 keoi5 dei2 cim1 zo2 hip3 ji5
+000569 ne1 go3 soeng4 si3 zau6 bei2 gaau3 zi1 jau5 ji3 ji6 la1
+000570 gam1 nin4 ge3 zau6 jip6 gung1 zok3 jau4 gau2 jyut6 fan6 hoi1 ci2
+000571 ji5 ging1 siu6 hoi1 zo2 hou2 do1 coeng4 haau6 jyun4 syun1 gong2 wui5
+000572 pei3 jyu4 waa6 bou2 git3 gung1 si1 bak1 ging1 ngan4 haang4 dang2 ng5 sap6 gei2 gaan1 kei5 jip6
+000573 dou1 lei4 ngo5 dei2 hok6 haau6 siu6 hoi1 zo2 syun1 gong2 wui5
+000574 ngo5 dei2 hok6 haau6 hai2 sap6 jat1 jyut6 jaa6 cat1 hou6 zung6 jiu3 geoi2 haang4 daai6 jing4 ge3 syun1 gong2 wui5
+000575 ji4 gaa1 bou3 meng2 caam1 gaa1 ngo5 dei2 syun1 gong2 wui5 ge3 kei5 jip6 jau5 jat1 baak3 saam1 sap6 gei2 gaan1
+000576 ngo5 dei2 zau6 jip6 zung1 sam1 ge3 coeng4 dei6 cit3 si1 gok3 fong1 min6 dou1 gei2 hou2
+000577 nang4 gau3 fuk6 mou6 jyu1 hok6 saang1 se5 wui5 jung6 jan4 daan1 wai2
+000578 fun1 jing4 ngo5 dei2 ge3 tung4 haang4 tung4 maai4 jung6 jan4 daan1 wai2 lei4 ngo5 dei2 hok6 haau6 zi2 dou6 ziu1 sau1 ngo5 dei2 ge3 bat1 jip6 saang1
+000579 bak1 ging1 fo1 gei6 daai6 hok6 hai6 jat1 gau2 ng5 ji6 nin4 jau4 bak1 joeng4 daai6 hok6 dang2 gwok3 noi6 ng5 gaan1 zung6 jiu3 daai6 hok6 ge3 hai6 fo1 zou2 seng4 ge3
+000580 ji4 gaa1 ji5 ging1 faat3 zin2 seng4 wai4 ji5 gung1 wai4 zyu2 gung1 lei5 gun2 man4 ging1 faat3 dang2 do1 hok6 fo1 hip3 diu6 faat3 zin2 ge3
+000581 gaau3 juk6 bou6 zik6 suk6 ge3 cyun4 gwok3 zung6 dim2 daai6 hok6
+000582 bak1 ging1 fo1 gei6 daai6 hok6 ge3 cin4 san1 giu3 zou6 bak1 ging1 gong3 tit3 hok6 jyun2
+000583 jat1 gau2 baat3 baat3 nin4 goi2 seng4 bak1 ging1 fo1 gei6 daai6 hok6
+000584 jat1 gau2 gau2 cat1 nin4 ng5 jyut6 bak1 ging1 fo1 gei6 daai6 hok6 zeon3 jap6 gwok3 gaa1 sau2 pai1 ji6 jat1 jat1 gung1 cing4 gou1 haau6
+000585 hai2 ji6 leng4 leng4 luk6 nin4 seng4 wai4 gwok3 gaa1 ge3 jau1 sai3 hok6 fo1 cong1 san1 peng4 toi4 si3 dim2 gou1 haau6
+000586 ngo5 dei2 hok6 haau6 gok3 leoi6 ge3 zoi6 haau6 hok6 saang1 zau6 lei4 saam1 maan6 jan4 la1
+000587 bun2 fo1 saang1 jau5 jat1 maan6 ji6 cin1 gei2 jan4 gok3 leoi6 jin4 gau3 saang1 hai6 baat3 cin1 gei2 jan4
+000588 ne1 jat1 dim2 tung4 gung1 soeng1 daai6 hok6 ho2 nang4 zau6 m4 tung4 la1
+000589 jin4 gau3 saang1 ne1 cang4 faat3 zin2 dou1 hai6 bei2 gaau3 faai3
+000590 ceoi4 zo2 ne1 di1 zung6 jau5 ngoi6 gwok3 lau4 hok6 saang1 seng4 jan4 gaau3 juk6 hok6 jyun2 ge3 hok6 saang1 tung4 maai4 jyun5 cing4 gaau3 juk6 hok6 saang1 dang2 dang2
+000591 ngo5 dei2 hok6 haau6 ge3 zau6 jip6 leot6 zit6 zi2 dou2 leng4 cat1 nin4 gau2 jyut6 saam1 sap6 jat1 hou6 jin4 gau3 saang1 zau6 jip6 leot6 daat6 dou2 baak3 fan1 zi1 gau2 sap6 luk6 dim2 gei2
+000592 bun2 fo1 saang1 zau6 hai6 baak3 fan1 zi1 gau2 sap6 saam1 dim2 gei2
+000593 zing6 hai6 zau6 jip6 leot6 lei4 gong2 zung6 hai6 bei2 gaau3 lei5 soeng2 ge3
+000594 ji6 leng4 leng4 baat3 nin4 bun2 fo1 saang1 ngo5 dei2 zik1 zoeng1 zau6 jip6 ge3 hok6 saang1 jau5 saam1 cin1 jat1 baak3 wai2
+000595 jin4 gau3 saang1 baau1 gwaat3 sek6 si6 tung4 maai4 bok3 si6 dou1 hou2 do1 jau5 seng4 ji6 cin1 luk6 baak3 wai2
+000596 dou1 zau6 lei4 tung4 bun2 fo1 saang1 jat1 joeng2 gam3 do1 la1
+000597 ji6 leng4 leng4 baat3 nin4 bat1 jip6 saang1 ge3 zau6 jip6 gung1 zok3 ji5 ging1 gei1 bun2 soeng5 cyun4 bou6 zin2 hoi1
+000598 hok6 haau6 jik6 dou1 fei1 soeng4 zung6 si6 zau6 jip6 zi2 dou6 gung1 zok3
+000599 daai6 gaa1 dou1 hou2 zung6 si6 ne1 fong1 min6 zau6 jip6 gung1 zok3 ji5 ging1 seng4 wai4 hok6 haau6 se5 wui5 fei1 soeng4 gwaan1 sam1 ge3 jat1 go3 waa6 tai4
+000600 ji4 ce2 gan1 geoi3 gaau3 juk6 bou6 ge3 tung2 gai3 daai6 hok6 saang1 ji4 gaa1 min6 lam4 ge3 zyu2 jiu3 aat3 lik6 zi1 jat1 zau6 hai6 zau6 jip6
+000601 ngo5 dei2 waa6 gaai2 kyut3 hok6 saang1 ge3 man6 tai4 jat1 ding6 jiu3 tung4 keoi5 ge3 sat6 zai3 man6 tai4 soeng2 git3 gap3
+000602 hok6 haau6 jau4 ling5 dou6 dou2 gok3 go3 hok6 jyun2 ge3 lou5 si1
+000603 baau1 gwaat3 zau6 jip6 zi2 dou6 zyun1 zik1 ge3 deoi2 ng5
+000604 deoi3 zau6 jip6 ne1 fong1 min6 cung4 jing6 sik1 dou2 gung1 zok3 soeng5 dou1 fei1 soeng4 zi1 zung6 si6
+000605 dai6 jat1 go3 hai6 deoi2 ng5 gin3 cit3 ne1 fong1 min6
+000606 ngo5 dei2 hok6 haau6 ji4 gaa1 hei1 mong6 jau5 jat1 zi1 zyun1 mun4 ge3 zau6 jip6 zi2 dou6 tyun4 deoi2 lei4 zou6 hok6 haau6 ge3 zau6 jip6 zi2 dou6 gung1 zok3
+000607 jyun4 sin1 jau5 hou2 do1 jam6 mou6 dou1 hai6 hok6 jyun2 ge3 fu6 dou6 jyun4 hai2 dou6 zou6 fu6 dou6 jyun4 leon4 zyun3 jau6 hou2 faai3
+000608 so2 ji5 tyun4 deoi2 ge3 zyun1 jip6 faa3 tung4 zyun1 gaa1 faa3 hou2 naan4 bou2 zing3
+000609 ngo5 dei2 gam1 nin4 zau6 hei1 mong6 nang4 gau3 hai2 gok3 go3 hok6 jyun2 cit3 laap6 zau6 jip6 ge3 zyun1 mun4 zi2 dou6 gung1 zok3
+000610 zung6 jau5 si5 coeng4 gin3 cit3 ne1 fong1 min6
+000611 jan1 wai4 hok6 saang1 zeoi3 gap1 seoi1 ge3 zau6 hai6 zau6 jip6 seon3 sik1 jau5 seon3 sik1 sin1 nang4 gau3 kau4 zik1
+000612 deoi3 jyu1 si5 coeng4 seon3 sik1 ne1 fong1 min6 ngo5 dei2 dou1 hai6 ceng2 jung6 jan4 daan1 wai2 lei4 ngo5 dei2 hok6 haau6 siu6 hoi1 soeng1 syun2 wui5
+000613 tung4 si4 ngo5 dei2 jik6 dou1 daai3 zyu6 ngo5 dei2 ge3 hok6 saang1 haang4 ceot1 haau6 mun4 heoi3 jat1 di1 kei5 jip6 sat6 dei6 gam2 heoi3 mong6 haa5
+000614 jan1 wai4 hou2 do1 hok6 saang1 deoi3 jat1 go3 dei6 fong1 m4 liu5 gaai2 ge3 si4 hau6 zau6 mou5 ho2 nang4 syun2 zaak6 dak1 dou2 ge3
+000615 so2 ji5 ngo5 dei2 hai2 ne1 fong1 min6 jik6 dou1 hai6 fei1 soeng4 zi1 lok6 lik6
+000616 hei1 mong6 di1 hok6 saang1 heoi3 jat1 sin3 heoi3 sat6 dei6 zeon3 haang4 haau2 caat3
+000617 hok6 haau6 ji4 gaa1 soeng2 gaau2 faan1 go3 zau6 jip6 sat6 zaap6 gei1 dei6
+000618 jik6 dou1 hai6 hok6 zo2 kei4 taa1 gei2 gaan1 hing1 dai6 jyun2 haau6 ge3 zou6 faat3
+000619 ngo5 dei2 gai3 waak6 hai2 saam1 nin4 zi1 noi6 gin3 seng4 jat1 baak3 gaan1 sau6 bat1 jip6 saang1 fun1 jing4 ge3 daai6 hok6 saang1 zau6 jip6 sat6 zaap6 gei1 dei6
+000620 ne1 go3 sat6 zaap6 gei1 dei6 ngo5 dei2 hei1 mong6 hai6 jau4 ngo5 dei2 jat1 di1 gap3 zok3 dak1 hou2 ge3
+000621 tung4 maai4 hok6 saang1 bei2 gaau3 teoi1 zin3 ge3 jat1 di1 kei5 jip6 lei5 bin1 gaan2 faan1 di1 ceot1 lai4
+000622 ho2 ji5 hai2 hok6 saang1 bat1 jip6 zi1 cin4 jat1 go3 jyut6 ge3 si4 gaan1 dang2 di1 hok6 saang1 heoi3 ne1 go3 kei5 jip6 sat6 zaap6 faan1 jat1 go3 jyut6
+000623 hai2 ne1 dyun6 si4 gaan1 kei5 jip6 tung4 maai4 hok6 saang1 zi1 gaan1 ho2 ji5 gaa1 koeng4 liu5 gaai2
+000624 gan1 zyu6 zau6 hai6 soeng1 syun2 wui5 si5 coeng4 ne1 fong1 min6 ngo5 dei2 dou2 muk6 cin4 wai4 zi2
+000625 zam1 deoi3 leng4 baat3 gaai3 ge3 bat1 jip6 saang1 jik6 dou1 tung4 joeng4 lou5 si1 go2 bin1 jat1 joeng2 hoi1 zo2 hou2 do1 soeng1 syun2 wui5
+000626 gan1 zyu6 zau6 hai6 zau6 jip6 zi2 dou6 ne1 fong1 min6 san1 long4 ge3 ne1 go3 wut6 dung6 dou1 gei2 hou2
+000627 jan1 wai4 ji4 gaa1 ge3 daai6 hok6 saang1 deoi3 keoi5 ge3 zau6 jip6 zi2 dou6 ne1 fong1 min6
+000628 seoi1 jin4 gaau3 juk6 bou6 jiu3 kau4 jat1 ding6 jiu3 zeon3 fo3 tong4
+000629 daan6 zau6 ngo5 dei2 ge3 sat6 zai3 cing4 fong3 lai4 gong2 sat6 zai3 soeng5 syun2 sau1 fo3 ji5 ging1 hai2 hoi1 zo2
+000630 jat1 nin4 kap1 tung4 ji6 nin4 kap1 ho2 ji5 gaan2 zik1 jip6 saang1 ngaai4 kwai1 waak6 fo3
+000631 saam1 nin4 kap1 tung4 sei3 nin4 kap1 deoi3 jyu1 bat1 jip6 saang1 zau6 ho2 ji5 gaan2 zaak6 jip6 gei6 haau2 fo3
+000632 jat1 di1 zaak6 jip6 ge3 lei5 nim6 dim2 heoi3 syun2 zaak6 baau1 gwaat3 cin4 kei4 tou2 leon6 ge3 jat1 di1 waa6 tai4
+000633 hai2 zau6 jip6 zi2 dou6 fo3 soeng5 min6 lou5 si1 jik6 dou1 wui5 bei3 keoi5 dei2 jat1 di1 gun3 syu1
+000634 daan6 ngo5 zung2 tai2 dou1 hai6 jing6 wai4 hok6 saang1 zi2 dou6 ne1 fong1 min6 dou1 hai6 bei2 gaau3 zi1 siu2
+000635 jan1 wai4 jau5 di1 hok6 saang1 mou5 di1 gam2 ge3 ji3 sik1
+000636 nei5 tung4 keoi5 gong2 go2 zam6 si4 keoi5 ho2 nang4 zau6 gok3 dak1 mou5 gam3 gan2 jiu3
+000637 daan6 hou2 ci5 gam1 jat6 gam2 joeng2 ge3 jat1 go3 waa6 tai4
+000638 keoi5 zi2 jau5 hai2 min6 deoi3 go2 zam6 si4
+000639 sin1 ho2 nang4 mai4 waak6 keoi5 hai6 mou5 ne1 go3 cin4 zim1 sing3 ge3
+000640 so2 ji5 zau6 jip6 zi2 dou6 ne1 fong1 min6 ngo5 dei2 dou1 soeng2 lok6 lik6 gam2 heoi3 zou6
+000641 dou2 muk6 cin4 wai4 zi2 ji6 leng4 leng4 baat3 gaai3 bat1 jip6 saang1 dou1 jau5 zyun1 mun4 ge3 lou5 si1 hoi1 zin2 zo2 zaak6 jip6 gei6 haau2 zau6 jip6 zing3 caak3 dang2 jat1 hai6 lit6 ge3 gong2 zo6
+000642 gan1 zyu6 lok6 lai4 ngo5 dei2 zung6 wui5 ceng2 faan1 di1 kei5 jip6 jan4 lik6 zi1 jyun4 bou6 ge3 zyu2 gun2
+000643 baau1 gwaat3 kei4 taa1 haang4 jip6 ge3 zyun1 gaa1 tung4 ngo5 dei2 hok6 saang1 jau4 si5 coeng4 ge3 gok3 dou6 king1 haa5 ceot1 bin1 ge3 se5 wui5 hai6 dim2 joeng2 ge3
+000644 nei5 dei2 ho2 nang4 min6 lam4 faan1 di1 dim2 joeng2 ge3 man6 tai4
+000645 jan1 wai4 ne1 go3 si4 hau6 ho2 nang4 ngo5 dei2 zau6 jip6 zi2 dou6 ge3 jan4 gong2 keoi5 m4 seon3
+000646 daan6 hai6 kei5 jip6 di1 jan4 waa6 zo2 keoi5 zau6 seon3 la1
+000647 ngo5 dei2 hei1 mong6 jau4 do1 go3 gok3 dou6 gaa1 koeng4 hok6 saang1 ge3 zau6 jip6 zi2 dou6
+000648 gam1 jat6 tung4 daai6 gaa1 gung6 tung4 gwaan1 zyu3 ge3 waa6 tai4 hai6 jat1 go3 daai6 gung1 si1 ge3 sai3 zik1 wai2 tung4 jat1 go3 sai3 gung1 si1 ge3 daai6 zik1 wai2 zi1 gaan1 nei5 dim2 heoi3 gaan2 ne1
+000649 hou2 do1 daai6 hok6 saang1 dou1 wui5 jau5 di1 gam2 ge3 ji4 waak6 ji4 ce2 dak6 bit6 ji4 gaa1 hai6 wan2 gung1 ge3 gou1 fung1 si4 kei4
+000650 loeng5 wai2 lou5 si1 jau6 hai6 dim2 nam2 ne1 go3 man6 tai4 ne1
+000651 jung6 tung4 hok6 zai2 ge3 waa6 lei4 syut3 gaan2 bin1 go3 sin1 zi3 zeoi3 ming4 zi3 ne1
+000652 ne1 go3 man6 tai4 ngo5 hai6 gam2 tai2
+000653 mat1 je5 giu3 daai6 gung1 si1 sai3 gung1 si1
+000654 daai6 tung4 sai3 mou5 jat1 go3 biu1 zeon2 zi2 hai6 jat1 go3 soeng2 deoi3 ge3
+000655 ling6 ngoi6 gaan2 daai6 tung4 maai4 sai3 sau2 sin1 jiu3 gan1 geoi3 zi6 gei2 ge3 hou2 do1 dak6 dim2 lei4 kok3 ding6
+000656 jik6 dou1 m4 hai6 waa6 daai6 gung1 si1 zau6 hou2 sai3 gung1 si1 zau6 bat1 hou2
+000657 hou2 do1 je5 jiu3 dim2 heoi3 tai2 jiu3 gan1 geoi3 zi6 gei2 ge3 nang4 lik6 dak6 dim2 tung4 maai4 sing3 gaak3 jan1 sou3 lei4 haau2 leoi6
+000658 pei3 jyu4 jau5 di1 jan4 aam1 heoi3 daai6 cong2 gam3 zau6 ho2 ji5 hai2 daai6 gung1 si1 jap6 bin1 tung1 gwo3 jat1 di1 wan6 zok3
+000659 hok6 dou2 hou2 do1 je5 tung1 gwo3 zi6 gei2 ge3 nou5 lik6 ho2 ji5 faat3 fai1 hou2 do1 zok3 jung6
+000660 jau5 di1 jan4 ho2 nang4 zau6 m4 aam1 di1 daai6 gung1 si1 la1
+000661 keoi5 zau6 hou2 zoek3 gan2 soeng2 heoi3 biu2 jin2 zi6 gei2 ge3 jat1 di1 je5
+000662 jik1 waak6 hai6 caam1 gaa1 faan1 di1 sat6 cin5 tung4 maai4 gung1 zok3
+000663 jik1 waak6 hai6 caam1 gaa1 di1 wut6 dung6 dang2 dang2
+000664 pei3 jyu4 ngo5 dei2 jau5 di1 tung4 hok6 ziu1 ping3 ge3 si4 hau6 jik6 dou1 hai6
+000665 keoi5 ge3 fu2 mou5 zau6 waa6 ngo5 ge3 sai3 lou6 hai6 heoi3 daai6 gung1 si1 zou6 faan1 go3 wui5 gai3 hou2 ne1
+000666 ding6 hai6 heoi3 pou2 waa4 wing5 dou6 ne1
+000667 ngo5 zau6 waa6 pou2 waa4 wing5 dou6 hai6 sei3 daai6 so2 zi1 jat1 jau5 hou2 do1 je5 hok6
+000668 daan6 hai6 nei5 heoi3 go2 bin1 hou2 daai6 aat3 lik6 wo3
+000669 jyu4 gwo2 nei5 heoi3 jat1 go3 pou2 tung1 ge3 gung1 si1 zou6 wui5 gai3
+000670 zau6 bei3 sam1 gei1 zou6 hou2 nei5 di1 jip6 mou6
+000671 nei5 ji5 hau6 ge3 zik1 jip6 saang1 ngaai4 sin1 zi3 hai6 hoeng3 soeng5 haang4 ge3
+000672 ngo5 go3 jan4 jing6 wai4 daai6 tung4 maai4 sai3 hai6 mou5 zyut2 deoi3 biu1 zeon2 ge3 ji4 hai6 gan1 geoi3 go3 jan4 ge3 cing4 fong3 lei4 kyut3 ding6
+000673 ngo5 tung4 ji3 joeng4 lou5 si1 ge3 gun1 dim2
+000674 kei4 sat6 aam1 zi6 gei2 sin1 zi3 hai6 zeoi3 hou2 mou5 mat1 hai6 zyut2 deoi3 ge3
+000675 tau4 sin1 joeng4 lou5 si1 waa6 tai2 nei5 zi6 gei2 hai6 dim2 ge3 cing4 fong3
+000676 nei5 fan1 sik1 zo2 ne1 gei2 go3 man6 tai4 zi3 jyu1 daai6 tung4 sai3 dou1 hai6 soeng2 deoi3 ge3
+000677 kei4 sat6 nei5 tau4 sin1 king1 dou2 zi6 gei2 ji3 hoeng3 ge3 man6 tai4
+000678 ngo5 dei2 zung6 jau5 jat1 go3 gong2 faat3
+000679 None gai1 tau4 None ding6 hai6 None fung6 mei5 None ne1
+000680 kei4 sat6 jau4 ngo5 dei2 hok6 haau6 lei4 gong2
+000681 ngo5 dei2 hei1 mong6 pui4 joeng5 ge3 jan4 coi4 hai6 zing1 jing1 jan4 coi4
+000682 mat1 je5 sin1 zi3 giu3 zing1 jing1 jan4 coi4 ne1
+000683 keoi5 m4 hai6 None gai1 tau4 None jik6 dou1 m4 hai6 None fung6 mei5 None
+000684 daan6 ngo5 dei2 hei1 mong6 keoi5 ho2 ji5 laap6 zi3 zou6 ne1 go3 None fung6 tau4 None
+000685 jau5 gam2 ge3 zi3 hoeng3 hai2 dou6
+000686 jyu4 gwo2 nei5 gaan2 zo2 heoi3 jat1 go3 daai6 kei5 jip6 jap6 bin1 ge3 hou2 pou2 tung1 ge3 gong1 wai2
+000687 jan1 wai4 ngo5 dei2 gam1 jat6 min6 deoi3 ge3 waa6 tai4 hai6 bat1 jip6 saang1 dim2 heoi3 gaan2
+000688 bat1 jip6 saang1 heoi3 zo2 gam2 joeng2 ge3 gong1 wai2
+000689 sau2 sin1 zau6 hai6 jat1 go3 ding6 wai2 ge3 man6 tai4
+000690 nei5 tau4 sin1 dou1 waa6 nei5 hai2 hok6 haau6 zung6 jau5 ho2 nang4 hai6 hok6 saang1 wui5 zyu2 zik6
+000691 daan6 dou1 hai6 jiu3 zung6 san1 hoi1 ci2 lei4 zo2 daan1 wai2 zi1 hau6 m4 lei5 hai6 jat1 go3 dim2 joeng2 ge3 hung1 gaan1 tung4 waan4 ging2
+000692 sau2 sin1 nei5 jiu3 tung4 zi6 gei2 ding6 wai2
+000693 zi1 dou6 ne1 go3 gong1 wai2 ge3 jam6 mou6 hai6 mat1 je5
+000694 dim2 gaai2 go3 daan1 wai2 gaan2 zo2 ngo5
+000695 ngo5 ho2 ji5 wai4 kei5 jip6 zou6 di1 mat1 je5
+000696 zi3 jyu1 ngo5 dim2 sin1 zou6 dak1 fung6 tau4
+000697 jik1 waak6 hai6 dim2 sin1 jau5 gang3 daai6 ge3 faat3 zin2
+000698 zi2 jiu3 nei5 fu6 ceot1 zo2 gam2 zau6 jat1 ding6 hai6 jau5 sau1 wok6 ge3
+000699 zung6 jau5 jat1 go3 hai6 ding6 wai2
+000700 zok3 wai4 jat1 go3 zik1 wai2 syun2 zaak6 ge3 ceoi2 hoeng3
+000701 zung6 jiu3 tai2 nei5 hok6 ge3 hai6 mat1 je5 zyun1 jip6
+000702 ngo5 ho2 ji5 zou6 di1 mat1 je5 ngo5 soeng2 zou6 di1 mat1 je5
+000703 go3 go3 bat1 jip6 saang1 ge3 kei4 mong6 dou1 hai6 jat1 joeng2 ge3
+000704 bat1 jip6 nam2 zyu6 zou6 fung6 tau4
+000705 daan6 hai6 zau6 jip6 aat3 lik6 gam3 daai6 ge3 cing4 fong3 dai2 haa5
+000706 ngo5 dei2 dim2 heoi3 zi2 dou6 hok6 saang1 deoi3 zi6 gei2 jau5 faan1 go3 ding6 wai2
+000707 sau2 sin1 jiu3 gaau2 cing1 co2 ngo5 hai6 bin1 go3 ngo5 aam1 zou6 di1 mat1 je5
+000708 ngo5 dei2 m4 lei5 heoi3 bin1 gaan1 gung1 si1 sau2 sin1 jiu3 jau5 jat1 go3 zi6 gei2 ge3 kwai1 waak6
+000709 hai2 daai6 gung1 si1 jap6 bin1 dim2 zou6 hai2 sai3 gung1 si1 jap6 bin1 jing1 goi1 dim2 zou6
+000710 ne1 di1 dou1 hai6 jiu3 kwai1 waak6 ge3 nei5 jap6 zo2 gung1 si1 zau6 m4 hou2 taan3 sai3 gaai3
+000711 jik1 waak6 nei5 nam2 zyu6 tiu3 cou4 heoi3 bin1 dou6
+000712 dou1 jing1 goi1 jau5 jat1 go3 zik1 jip6 ge3 kwai1 waak6 sin1 zi3 dak1
+000713 jiu3 sat6 jin2 zi6 gei2 go3 jan4 ge3 faat3 zin2 zung6 jiu3 tung4 kei5 jip6 ge3 faat3 zin2 git3 gap3 faan1
+000714 sin1 zi3 sat6 jin2 dou2 nei5 zi6 gei2 ge3 faat3 zin2
+000715 jat1 m4 hai6 nei5 zing6 nam2 zyu6 zi6 gei2 dim2 sin1 jau5 dak1 sing1 gun1
+000716 dim2 sin1 zi3 jau5 do1 di1 ngan4 zi2 gam2 zau6 m4 dak1 ge3
+000717 ji4 ce2 tung4 hok6 hai2 jap6 zo2 ne1 go3 kei5 jip6 zi1 hau6 jik6 dou1 jiu3 seon3 cuk1 zip3 sau6 ne1 go3 kei5 jip6 ge3 man4 faa3
+000718 seon3 cuk1 gam2 jung4 jap6 ne1 go3 kei5 jip6 zi1 zung1 sin1 zi3 jau5 gang3 hou2 ge3 faat3 zin2
+000719 tau4 sin1 gong2 jat1 go3 daai6 gung1 si1 jap6 bin1 zou6 jat1 go3 sai3 zik1 wai2
+000720 ceoi4 zo2 ding2 dak1 zyu6 zik6 mok6 sik1 jing1 kei5 jip6 man4 faa3 zi1 ngoi6
+000721 loeng5 wai2 lou5 si1 dou1 bei3 zo2 ngo5 dei2 hou2 do1 hou2 ge3 gin3 ji5
+000722 jyu4 gwo2 ngo5 heoi3 jat1 go3 sai3 gung1 si1 zou6 jat1 go3 ling5 tau4 joeng4
+000723 jing1 goi1 dim2 heoi3 zeon2 bei6 ne1
+000724 jan1 wai4 cyun4 bou6 di1 je5 ho2 nang4 dou1 jiu3 ngo5 lei4 syun2 zaak6
+000725 jyu4 gwo2 hai6 ngo5 heoi3 jat1 go3 sai3 gung1 si1 zou6 faan1 go3 ling5 tau4 joeng4
+000726 sau2 sin1 ngo5 hai6 zoeng1 zi6 gei2 fan6 gung1 jiu3 zou6 hou2 keoi5 sin1
+000727 zok3 wai4 daai6 hok6 saang1 jau6 hou2 zik1 jip6 jan4 jau6 hou2
+000728 sau2 sin1 zi6 gei2 bun2 san1 ge3 gung1 zok3 jiu3 zou6 hou2 ne1 go3 hai6 zeoi3 gei1 bun2 ge3
+000729 ling6 ngoi6 gung1 si1 ge3 faat3 zin2 nei5 jiu3 nam2 do1 di1
+000730 jiu3 jau5 jat1 go3 faat3 zin2 gai3 waak6
+000731 sau2 sin1 hai6 daap6 daap6 sat6 sat6 zou6 hou2 ji4 gaa1 di1 je5
+000732 ling6 ngoi6 dim2 heoi3 zou6 daai6 gaan1 kei5 jip6
+000733 zoeng1 cyun4 tai2 jyun4 gung1 tyun4 git3 hai2 maai4 jat1 cai4 ne1 di1 dou1 jiu3 haau2 leoi6
+000734 kei4 sat6 baau1 gwaat3 hai2 daai6 gung1 si1 jap6 bin1
+000735 jyu4 gwo2 nei5 zou6 hou2 zi6 gei2 fan6 gung1
+000736 ho2 nang4 jau6 wui5 jat1 bou6 jat1 bou6 gam2 heoi3 sing1 zik1
+000737 nei5 dou1 wui5 seon3 cuk1 gam2 bin3 seng4 fung6 tau4
+000738 so2 ji5 seng4 wai4 fung6 tau4 ge3 dou6 lou6 dou1 hai6 fei1 soeng4 zi1 do1
+000739 tiu4 tiu4 daai6 lou6 tung1 lo4 maa5 la1 maa5
+000740 baau1 gwaat3 ji4 gaa1 hou2 do1 zung1 joeng1 ling5 dou6 jan4 dou1 hai6 gam2 joeng2
+000741 sau2 sin1 jau4 gei1 cang4 zou6 hei2 jat1 bou6 jat1 go3 goek3 jan3
+000742 daap6 daap6 sat6 sat6 zou6 hou2 zi6 gei2 fan6 gung1
+000743 maan6 maan6 gam2 jau4 sai3 kei5 jip6 bin3 seng4 daai6 kei5 jip6
+000744 maan6 maan6 jau4 gai1 tau4 bin3 seng4 fung6 tau4 dou1 hai6 ne1 go3 gwo3 cing4
+000745 so2 jau5 ge3 je5 dou1 hai6 seoi1 jiu3 zik1 leoi3
+000746 ngo5 dei2 bit1 seoi1 jat1 bou6 jat1 bou6 goek3 daap6 sat6 dei6 gam2 heoi3 zou6
+000747 sin1 zi3 ho2 ji5 seng4 wai4 fung6 tau4
+000748 mou5 ho2 nang4 hai2 hok6 haau6 jat1 bat1 jip6 ceot1 lai4 zau6 zou6 dak1 fung6 tau4 ge3
+000749 teng1 jyun4 loeng5 wai2 lou5 si1 ge3 gaai3 siu6 ngo5 dat6 jin4 jau5 jat1 go3 nam2 faat3
+000750 pei3 jyu4 heoi3 jat1 go3 sai3 gung1 si1 ho2 ji5 cung1 fan1 tai4 gou1 ling5 dou6 lik6
+000751 pei3 jyu4 heoi3 jat1 go3 daai6 gung1 si1 hai2 gei1 cang4 zau6 hoi1 ci2 ming4 baak6 zoeng1 lei4 jyun4 gung1 hai6 dim2 heoi3 gung1 zok3
+000752 so2 ji5 mou5 mat1 je5 jau1 sai3 tung4 maai4 lyut3 sai3 ge3 nei5 taan2 jin4 gam2 heoi3 min6 deoi3 zau6 dak1 la1
+000753 baau1 gwaat3 ji4 gaa1 bak1 ging1 si5 jan4 si6 guk6 zou2 zik1 ge3 heoi3 bak1 ging1 gam1 kiu2 nung4 cyun1 daam1 jam6 cyun1 zi1 bou6 syu1 gei3 zo6 lei5 dou1 hai6 jat1 joeng2
+000754 dou1 hai6 hai2 gei1 cang4 dyun3 lin6 deoi3 keoi5 dei2 gam1 hau6 ge3 gung1 zok3 hou2 jau5 bong1 zo6
+000755 gam1 hau6 keoi5 dei2 jau5 ho2 nang4 zau6 hai6 fung6 tau4
+000756 keoi5 dei2 ji4 gaa1 dou1 hou2 daap6 sat6 gam2 hai2 nung4 cyun1
+000757 zi1 dou6 nung4 cyun1 gung1 zok3 dim2 heoi3 zou6 zi1 dou6 dim2 heoi3 mo4 lin2 zi6 gei2 ge3 ji3 zi3 zat1 loeng6 zeoi3 hau6 keoi5 dei2 zoeng1 wui5 seng4 wai4 ngo5 dei2 se5 wui5 ge3 fung6 tau4
+000758 jan1 wai4 keoi5 dei2 hai2 mei6 lai4 kyut3 caak3 go2 zam6 si4 liu5 gaai2 gei1 cang4 hai6 gam2 joeng2 ge3
+000759 keoi5 dei2 ge3 kyut3 caak3 ho2 nang4 zau6 deoi3 gei1 cang4 ge3 faat3 zin2
+000760 baau1 gwaat3 jat1 di1 tai2 zai3 ge3 gin3 laap6 gin6 cyun4 hei2 dou2 fei1 soeng4 gwaan1 gin6 ge3 zok3 jung6
+000761 ngo5 dei2 hai2 ne1 dou6 jiu3 tai4 sing2 daai6 gaa1 ge3 zau6 hai6
+000762 ji4 gaa1 zau6 jip6 ging6 zaang1 gam3 gik1 lit6 ji5 ging1 m4 hai6 haau2 leoi6 nei5 soeng2 zou6 gai1 tau4 ding6 hai6 fung6 mei5 ge3 si4 hau6 liu5
+000763 jan1 wai4 ji4 gaa1 m4 hai6 so2 jau5 hok6 saang1 dou1 jau5 syun2 zaak6 kyun4 gaan2 dak1 dou2 heoi3 ne1 gaa1 daan1 wai2 ding6 hai6 go2 gaan1
+000764 ji4 zeoi3 gan2 jiu3 zau6 hai6 nei5 zi6 gei2 ge3 cim4 ji3 sik1 gaan2 zo2 zi1 hau6 jiu3 dak1 dou2 jung6 jan4 daan1 wai2 ge3 jing6 ho2
+000765 sau2 sin1 dong1 doi6 daai6 hok6 saang1 zeoi3 seoi1 jiu3 ge3 zau6 hai6 jing6 ho2 zi6 gei2 daai6 hok6 sei3 nin4 ge3 hok6 jip6 dang2 dang2 ne1 di1 fong1 min6
+000766 gong2 dou2 mei6 lai4 ge3 faat3 zin2
+000767 mou5 leon6 hai6 zou6 jat1 go3 daai6 gung1 si1 jap6 bin1 ge3 sai3 zik1 jyun4 ding6 hai6 sai3 kei5 jip6 jap6 bin1 ge3 daai6 zik1 jyun4 dou1 wui5 min6 lam4 jat1 go3 man6 tai4
+000768 ji4 ce2 ne1 go3 man6 tai4 jik6 dou1 hai6 cin4 gei2 nin4 zou6 jyun4 fong2 taam4 zi1 hau6 jau5 di1 tung4 hok6 zai2 man6 ge3
+000769 ne1 go3 man6 tai4 zau6 hai6 daai6 hok6 saang1 hai2 daai6 hok6 ge3 tung4 hok6 nin4 gei2 soeng2 caa1
+000770 cung1 kei4 loeng6 dou1 hai6 loeng5 saam1 seoi3 gam3 do1
+000771 daan6 hai6 bou6 jap6 zik1 coeng4 ne1 zau6 faat3 jin2 zi6 gei2 tung4 si6 tung4 zi6 gei2 caa1 zo2 seng4 gei2 sap6 seoi3 gam3 do1
+000772 jyu4 gwo2 zong6 dou2 nei5 ge3 soeng5 si1 hau6 saang1 gwo3 nei5 hou2 do1
+000773 jik1 waak6 hai6 nei5 ge3 tung4 si6 daai6 gwo3 nei5 hou2 do1
+000774 tung4 hok6 jing1 goi1 dim2 heoi3 cyu3 lei5 ne1 go3 gwaan1 hai6 ne1
+000775 gaa3 jyu4 hai6 ngo5 ngo5 gung1 si1 jap6 bin1 ge3 ling5 dou6 tung4 si6 hang2 ding6 daai6 gwo3 ngo5
+000776 zi2 jiu3 tung4 si6 daai6 gwo3 ngo5 pei3 jyu4 daai6 sap6 seoi3 dou1 jau5 ho2 nang4
+000777 ngo5 zau6 wui5 zeon1 zung6 keoi5 sau2 sin1 hai2 gung1 zok3 soeng5 zeon1 zung6 keoi5
+000778 jan1 wai4 keoi5 daai6 gwo3 ngo5 sap6 gei2 seoi3
+000779 keoi5 ge3 gung1 zok3 ging1 lik6 baau1 gwaat3 keoi5 hou2 do1 ging1 jim6 tung4 maai4 gaau3 fan3
+000780 ngo5 dou1 ho2 ji5 hai2 keoi5 san1 soeng5 hok6 dou2 hou2 do1 je5
+000781 ling6 ngoi6 hai2 gung1 zok3 gwo3 cing4 jap6 bin1 ngo5 zau6 wui5 ging1 soeng4 tung4 keoi5 kau1 tung1 gaau1 lau4
+000782 hai2 gung1 zok3 jap6 bin1 keoi5 jau5 m4 hou2 ge3 dei6 fong1
+000783 ngo5 jik6 dou1 ho2 ji5 tung4 keoi5 kau1 tung1 gaau1 lau4
+000784 hai2 peng4 si4 saang1 wut6 ngo5 zau6 zeon1 keoi5 wai4 daai6 lou2 jik1 waak6 hai6 aa3 go1
+000785 ne1 di1 dou1 hai6 mou5 so2 wai6 ge3 ne1 go3 hai6 ngo5 zi6 gei2 ge3 zou6 faat3
+000786 kei4 sat6 saang1 wut6 zong6 taai3 tung4 gung1 zok3 zong6 taai3 jing1 goi1 fan1 hoi1
+000787 hai2 gung1 zok3 jap6 bin1 ngo5 dei2 loeng5 go3 zau6 hai6 peng4 dang2 hai6 tung4 si6 jat1 cai4 zou6 hou2 di1 gung1 zok3
+000788 daan6 hai2 saang1 wut6 dong1 zung1 ho2 nang4 zau6 jiu3 zeon1 zung6 nei5
+000789 kei4 sat6 jan4 tung4 jan4 zi1 gaan1 m4 lei5 nin4 ling4 daai6 sai3 sau2 sin1 dou1 hai6 jiu3 zeon1 zung6
+000790 jyu6 dou2 man6 tai4 gaa1 koeng4 kau1 tung1 ge3 waa6 nin4 ling4 zau6 bat1 seng4 man6 tai4
+000791 zeoi3 gan2 jiu3 hai6 jau5 di1 hok6 saang1 sam1 lei5 soeng5 bin1 peng4 hang4 m4 dou2 ne1 go3 man6 tai4
+000792 nei5 hai6 ngo5 ge3 ling5 dou6 dim2 gaai2 zung6 sai3 gwo3 ngo5 ne1
+000793 nei5 hai6 ngo5 ge3 tung4 si6 dim2 gaai2 daai6 ngo5 gam3 do1 ne1
+000794 kei4 sat6 daai6 gaa1 jiu3 zoeng1 nin4 ling4 ne1 go3 man6 tai4 taam5 faa3 siu2 siu2
+000795 daai6 gaa1 dou1 hai6 tung4 si6 dou1 hai6 jat1 go3 tyun4 deoi2 jap6 bin1 ge3 go3 tai2
+000796 ngo5 dei2 soeng2 wu6 zeon1 zung6 jyu6 dou2 man6 tai4 daai6 gaa1 saau2 mei4 paau1 hoi1 nin4 ling4 man6 tai4 ho2 nang4 zung6 zi6 jin4 siu2 siu2
+000797 deoi3 jyu1 saau2 mei4 hau6 saang1 ge3 ling5 dou6 ngo5 jik6 dou1 jau5 di1 gin3 gaai2
+000798 soeng5 kap1 giu3 nin4 heng1 jan4 zou6 ngo5 ling5 dou6
+000799 ho2 nang4 jau5 keoi5 ge3 dak6 coeng4 gwo3 jan4 zi1 cyu3
+000800 jau5 keoi5 ge3 ling5 dou6 coi4 nang4 ngo5 zau6 jat1 ding6 jiu3 zeon1 zung6 keoi5 zap1 haang4 keoi5 ge3 gai3 waak6
+000801 baau1 gwaat3 keoi5 ge3 ling5 dou6 jiu3 zeon1 zung6 keoi5
+000802 keoi5 zi2 ding6 ge3 gung1 zok3 ngo5 jing1 goi1 jyun4 seng4
+000803 jyu4 gwo2 keoi5 jau5 di1 je5 zi2 sau2 waak6 goek3 ngo5 dei2 ho2 ji5 si1 dai2 haa5 kau1 tung1
+000804 m4 lei5 hai6 hai2 kei5 jip6 jau6 hou2 gei1 gwaan1 jau6 hou2 si6 jip6 daan1 wai2 jau6 hou2
+000805 ling5 dou6 gong2 ceot1 ge3 je5 ngo5 dei2 bit1 seoi1 jiu3 zap1 haang4
+000806 jau5 mat1 je5 m4 aam1 ge3 dei6 fong1 ho2 ji5 tung4 keoi5 kau1 tung1 ngo5 dei2 jing1 goi1 zou6 dou2 ne1 jat1 dim2
+000807 jan1 wai4 hou2 do1 bat1 jip6 saang1 zoeng1 wui5 min6 lam4 gam2 joeng2 ge3 man6 tai4
+000808 dak6 bit6 pei3 jyu4 bok3 si6 jik1 waak6 hai6 sek6 si6
+000809 keoi5 dei2 bat1 jip6 ge3 si4 hau6 nin4 gei2 zau6 hou2 daai6 la1
+000810 daan6 hai6 dong1 co1 keoi5 ge3 tung4 hok6
+000811 ho2 nang4 bun2 fo1 bat1 jip6 zau6 heoi3 zo2 zou6 gung1
+000812 ji5 ging1 zou6 dou2 jat1 go3 gong1 wai2 ge3 mat1 je5 bou6 mun4 ging1 lei5
+000813 dang2 go3 bok3 si6 jat1 bat1 jip6 lai4 zo2
+000814 ngo5 ge3 tung4 baan1 tung4 hok6 jik1 waak6 hai6 tung4 kap1 keoi5 zung6 zou6 zo2 ngo5 ling5 dou6 wo3 ngo5 hai6 bok3 si6 lei4 go3 wo3
+000815 hou2 do1 tung4 hok6 noi6 sam1 zau6 m4 peng4 hang4
+000816 si6 sat6 soeng5 daai6 gaa1 jiu3 jau5 jat1 go3 hou2 ge3 sam1 taai3
+000817 ne1 zung2 guk6 min6 ho2 nang4 dou1 hai6 zaam6 si4 ge3
+000818 zi2 jiu3 nei5 bei3 sam1 gei1 zou6 gung1 zung2 jau5 jat1 jat6 nei5 ge3 gaa3 zik6 dou1 wui5 tai2 jin2 ceot1 lei4
+000819 hou2 do1 daai6 hok6 saang1 hai2 teng1 jyun4 ngo5 dei2 tau4 sin1 ge3 ne1 dyun6 taam4 waa6 jing1 goi1 hai6 fong2 jin4 daai6 ng6
+000820 ngo5 go3 jan4 ge3 gun1 dim2 hai6 se5 wui5 hai6 jau5 nin4 ling4 tai1 dou6 ge3
+000821 gou1 haau6 jau4 jyu1 gaau3 juk6 ge3 man6 tai4 ho2 nang4 nin4 ling4 caa1 m4 do1
+000822 daan6 hai6 nei5 haang4 ceot1 hok6 haau6 bou6 jap6 ge3 hai6 se5 wui5
+000823 m4 ho2 nang4 jiu3 kau4 nei5 daan1 wai2 ge3 tung4 si6 nin4 ling4 jat1 ding6 jiu3 tung4 nei5 soeng2 fong2
+000824 sin1 zi3 cau3 dak1 nei5 dei2 hai2 maai4 jat1 hei2 mou5 di1 gam2 ge3 kwai1 ding6 ge3
+000825 so2 ji5 nin4 ling4 zau6 m4 jing1 goi1 haau2 leoi6 gam3 do1
+000826 ne1 go3 jik6 dou1 seoi1 jiu3 hok6 saang1 dyun3 lin6 tung4 jan4 soeng2 cyu3 ge3 nang4 lik6
+000827 tyun4 deoi2 gap3 zok3 ge3 nang4 lik6 tung4 jan4 kau1 tung1 ge3 nang4 lik6
+000828 ne1 di1 dou1 hai6 jat1 zung2 haau2 jim6
+000829 ne1 zung2 haau2 jim6 deoi3 jyu1 mei6 lai4 gok3 wai2 tung4 hok6 ge3 seng4 coi4 jik6 dou1 jau5 fei1 soeng4 daai6 ge3 jik1 cyu3
+000830 baau1 gwaat3 nei5 ji5 hau6 jiu3 zou6 gung1 si1 ling5 dou6
+000831 jik1 waak6 hai6 nei5 soeng2 zou6 jat1 go3 jau1 sau3 jyun4 gung1
+000832 ne1 zung2 kau1 tung1 lik6 jing4 zeoi6 lik6 dou1 hai6 zi6 gei2 bit1 bei6 ge3 nang4 lik6
+000833 tung4 hok6 hai2 aam1 bat1 jip6 zam6 si4 zung6 wui5 jau5 jat1 zung2 kwan3 waak6
+000834 hai2 haau2 gung1 mou6 jyun4 tung4 maai4 zau6 jip6 zi1 gaan1 zou6 syun2 zaak6
+000835 dim2 gaai2 ngo5 dat6 jin4 nam2 dou2 ne1 go3 man6 tai4 ne1
+000836 jan1 wai4 nei5 dat6 jin4 gong2 jau5 jat1 go3 bok3 si6 bat1 zo2 jip6
+000837 heoi3 zo2 go3 daan1 wai2 heoi3 tai2 haa5 hai6 zi6 gei2 bun2 fo1 ge3 tung4 hok6
+000838 kei4 sat6 jan4 dei6 gam2 do1 nin4 dyun3 lin6 ceot1 lai4 seng4 wai4 ling5 dou6 keoi5 zau6 bat1 peng4 hang4 wo3
+000839 loeng5 wai2 lou5 si1 dim2 heoi3 tai2 doi6 ji4 gaa1 bun2 fo1 zau6 jip6 tung4 gai3 zuk6 haau2 jin4 ne1 loeng5 ze2 ge3 gwaan1 hai6 ne1
+000840 hou2 ci5 haau2 jin4 tung4 zau6 jip6 tai2 nei5 zi6 gei2 dim2 heoi3 ding6 wai2 dim2 heoi3 cyu3 lei5
+000841 jau5 di1 jan4 ceot1 lei4 zou6 gung1 sin1 gan1 zyu6 sin1 zi3 haau2 jin4
+000842 deoi3 keoi5 ge3 hok6 zaap6 deoi3 keoi5 ge3 zi1 sik1 lei5 gaai2 ho2 nang4 jau5 lei6 di1
+000843 jyu4 gwo2 nei5 hai6 gaau2 jin4 gau3 go2 di1 jan4 jau4 bun2 fo1 zik6 zip3 haau2 jin4 gan1 zyu6 duk6 bok3 zau6 bei2 gaau3 hou2
+000844 soeng2 zou6 gun2 lei5 jik1 waak6 hai6 zou6 dai6 joeng2 ge3 duk6 zo2 bun2 fo1 sin1
+000845 ceot1 lai4 zou6 je5 gan1 zyu6 haau2 jin4 hok6 zaap6
+000846 jau5 jat1 ding6 ge3 se5 wui5 ging1 jim6 zi1 hau6 zoi3 heoi3 duk6 jin4 gau3 saang1 jik6 dou1 hai6 jat1 go3 hou2 ge3 syun2 zaak6
+000847 kei4 sat6 ji4 gaa1 hou2 do1 hok6 saang1 dou1 hai6 bei2 gaau3 maang4 muk6 ge3 baau1 gwaat3 bun2 fo1 ge3 hok6 saang1
+000848 hou2 do1 tung4 hok6 daai6 jat1 ge3 tung4 hok6 nei5 man6 keoi5 nei5 sei3 nin4 zi1 hau6 soeng2 zou6 di1 mat1 je5
+000849 gau2 seng4 ge3 tung4 hok6 dou1 waa6 soeng2 haau2 jin4
+000850 dim2 gaai2 jiu3 heoi3 haau2 ne1 zung6 jau5 mou5 dai6 joeng2 syun2 zaak6 ne1 keoi5 gan1 bun2 zau6 m4 zi1
+000851 dang2 dou2 daai6 saam1 zau6 lei4 bou3 meng2 ge3 si4 hau6 jau5 jat1 bou6 fan1 jan4 zau6 teoi3 ceot1 zo2 go2 zam6 si4 zung6 hai6 jau5 hou2 do1 jan4 soeng2 haau2 jin4
+000852 haau2 jin4 zi1 hau6 deoi3 zi6 gei2 go3 jan4 faat3 zin2 jau5 dim2 ge3 zok3 jung6 keoi5 zung6 mei6 haau2 leoi6 dak1 hou2 sam1
+000853 dou2 zo2 zeoi3 hau6 zan1 zeng3 haau2 jin4 haau2 jin4 hai6 jat1 go3 hou2 tung3 fu2 ge3 gwo3 cing4
+000854 go2 zam6 si4 tung4 hok6 dou1 hai2 mong5 soeng5 bin1 gong2 None gwo3 zyu6 zyu1 gau2 bat1 jyu4 ge3 saang1 wut6 None
+000855 hou2 tung3 fu2 jik6 dou1 hou2 san1 fu2
+000856 gin1 ci4 lok6 lai4 ge3 tung4 hok6 ne1 bou6 fan1 tung4 hok6 wong5 wong5 zau6 hai6 bei2 gaau3 zap1 zoek3 ge3
+000857 jing6 wai4 haau2 jin4 deoi3 ngo5 jan4 saang1 ge3 faat3 zin2 jik1 waak6 hai6 deoi3 ngo5 ge3 zik1 jip6 kwai1 waak6 hou2 gan2 jiu3
+000858 pei3 jyu4 ji5 hau6 ngo5 soeng2 heoi3 jin4 gau3 jyun2 zou6 je5
+000859 ngo5 soeng2 zou6 jat1 go3 gou1 haau6 ge3 lou5 si1
+000860 gam2 zau6 jat1 ding6 jiu3 jau5 bok3 si6 hok6 wai2
+000861 sin1 zi3 ho2 nang4 soeng5 dak1 dou2 gou1 haau6 ge3 gong2 toi4
+000862 sin1 zi3 zou6 dak1 dou2 zi6 gei2 zung1 ji3 ge3 gung1 zok3
+000863 daan6 hai6 pei3 jyu4 hou2 ci5 tau4 sin1 joeng4 lou5 si1 gam2 gong2
+000864 keoi5 ji5 hau6 heoi3 cong1 jip6 heoi3 jat1 di1 kei5 si6 jip6 daan1 wai2 zou6 je5
+000865 ho2 nang4 ne1 go3 gong1 wai2 deoi3 keoi5 ge3 hok6 lik6 waak6 ze2 hai6 hok6 zaap6 ge3 jiu3 kau4 mou5 gam3 gou1
+000866 ngo5 jik6 dou1 gin3 ji5 bat1 hou2 jat1 mei6 gam3 heoi3 duk6
+000867 jan1 wai4 se5 wui5 jiu3 kau4 nei5 ge3 ging1 jim6 zung6 jau5 nei5 gung1 zok3 ge3 ging1 lik6 jik6 dou1 hai6 hou2 gan2 jiu3 ge3

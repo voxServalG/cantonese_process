@@ -18,7 +18,7 @@ def simp2Jyutping(str_simp):
     return simp_to_jyutping_traversely(str_simp)
 
 
-FILE_NAME = 'text_simp.txt'
+FILE_NAME = 'train_text_sample.txt'
 OUTPUT_NAME = 'output.txt'
 
 if __name__ == '__main__':
