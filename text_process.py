@@ -22,9 +22,19 @@ FILE_NAME = 'train_text_sample.txt'
 OUTPUT_NAME = 'output.txt'
 
 if __name__ == '__main__':
-    with open(os.path.join(os.path.dirname(sys.argv[0]), FILE_NAME), 'r', encoding='UTF-8') as data:
-        sentences = data.read().splitlines()
-    with open(os.path.join(os.path.dirname(sys.argv[0]), OUTPUT_NAME), 'w', encoding='UTF-8') as f:
-        for i, sentence in tqdm(enumerate(sentences)):
-            print(str(i).zfill(6), *simp2Jyutping(sentence))
-            print(str(i).zfill(6), *simp2Jyutping(sentence), file=f)
+    for_eval = False
+    if for_eval:
+        with open(os.path.join(os.path.dirname(sys.argv[0]), FILE_NAME), 'r', encoding='UTF-8') as data:
+            sentences = data.read().splitlines()
+        with open(os.path.join(os.path.dirname(sys.argv[0]), OUTPUT_NAME), 'w', encoding='UTF-8') as f:
+            for i, sentence in tqdm(enumerate(sentences)):
+                # print('"', end='', file=f)
+                print(*simp2Jyutping(sentence), file=f)
+                # print('",', file=f)
+    else:
+        with open(os.path.join(os.path.dirname(sys.argv[0]), FILE_NAME), 'r', encoding='UTF-8') as data:
+            sentences = data.read().splitlines()
+        with open(os.path.join(os.path.dirname(sys.argv[0]), OUTPUT_NAME), 'w', encoding='UTF-8') as f:
+            for i, sentence in tqdm(enumerate(sentences)):
+                print(str(i + 1).zfill(6), *simp2Jyutping(sentence))
+                print(str(i + 1).zfill(6), *simp2Jyutping(sentence), file=f)

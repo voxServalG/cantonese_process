@@ -2,8 +2,8 @@ import os
 import sys
 
 if __name__ == '__main__':
-    index = 371
-    path = '/home/vox/Downloads/wave_2'
+    index = 1
+    path = 'H:\TTS_project\wave_demo'
     filelist = os.listdir(path)
     filelist.sort(key=lambda x: int(x[0:14]))  # sort by 0-13th digit of filename
 
