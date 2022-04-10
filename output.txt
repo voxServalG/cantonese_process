@@ -122,19 +122,19 @@
 000122 ji6 jiu3 hok6 hou2 jing1 man2
 000123 mui5 jat6 dou1 jiu3 min2 deoi3 jat6 san1 jyut6 ji6 ge3 bin3 faa3
 000124 jing1 man2 gei2 gam3 zung6 jiu3 zau6 m4 sai2 gong2 la1
-000125 nei5 jiu3 hok6 zaap6 gwok3 ngoi6 ge3 lei5 leon6 gei6 seot6
+000125 nei5 jiu3 hok6 zaap6 ngoi6 gwok3 ge3 lei5 leon6 gei6 seot6
 000126 ceot1 gwok3 lau4 hok6 go2 zan6 si2 zau6 jat1 ding6 jiu3 hok6 jing1 man2
 000127 dai6 saam1 jiu3 hok6 sik1 zou6 jan4 ge3 fong1 faat3
 000128 sai2 do1 di1 sam1 gei1 ging1 jing4 zi6 gei2 ge3 gwaan1 hai6 mong5
-000129 daai6 hok6 m4 daan1 zi2 hai6 hok6 zaap6 ge3 lok6 jyun4 gang3 gaa1 hai6 juk6 jan4 ge3 sing3 dei6
-000130 hok6 sik1 zou6 jan4 hai6 ngo5 dei6 daai6 hok6 saang1 bit1 sau1 ge3 jat1 mun4 fo3 cing4
+000129 daai6 hok6 gang3 gaa1 hai6 juk6 jan4 ge3 sing3 dei6
+000130 hok6 sik1 zou6 jan4 hai6 bit1 sau1 ge3 jat1 mun4 fo3 cing4
 000131 ji4 gaa1 hai2 hok6 haau6 duk6 syu1 ge3 ngo5 dei6
-000132 gaau1 zai3 gyun6 guk6 haan6 hai2 can1 jan4 tung4 hok6 tung4 maai4 gei2 go3 pang4 jau5
-000133 deoi3 zi6 gei2 gam1 hau6 sang1 ngaai4 ge3 faat3 zin2 fei1 soeng4 zi1 bat1 lei6
+000132 gaau1 zai3 gyun6 guk6 haan6 hai2 can1 jan4 tung4 hok6
+000133 deoi3 zi6 gei2 gam1 hau6 ge3 faat3 zin2 fei1 soeng4 zi1 bat1 lei6
 000134 so2 ji5 ngo5 dei6 jing1 goi1 jau4 ji4 gaa1 hoi1 ci2
 000135 gang3 gaa1 zung6 si6 pui4 joeng5 zi6 gei2 wai6 jan4 cyu2 sai3 ge3 nang4 lik6
 000136 tung4 maai4 ging1 jing4 wai4 wu6 hou2 zi6 gei2 ge3 jan4 mak6 zi1 jyun4
-000137 dai6 sei3 jiu3 baai2 zeng3 sam1 taai3 deoi3 gung1 zok3 jiu3 jim4 gan2 jing2 zan1 fu6 zaak3
+000137 deoi3 gung1 zok3 jiu3 jim4 gan2 jing2 zan1 fu6 zaak3
 000138 lok6 gun1 gam2 heoi3 min6 deoi3 hong4 jip6 zoeng1 loi4 ge3 faat3 zin2 cin4 ging2
 000139 dai6 ng5 jiu3 zik1 gik6 tau4 san1 sat6 cin5
 000140 heoi3 ging1 lik6 gam2 sau6 tung4 maai4 ling5 wui6
@@ -143,26 +143,26 @@
 000143 ji6 hai6 tung1 gwo3 zi6 gei2 ge3 sat6 cin5 heoi3 wok6 ceoi2
 000144 ji4 zeoi3 gan2 jiu3 zeoi3 ho2 kaau3 zeoi3 jau5 gaa3 zik6 ge3
 000145 zung6 hai6 zi6 gei2 hai2 sat6 cin5 lei5 bin6 wok6 dak1 ge3 zi1 sik1 tung4 maai4 gei6 nang4
-000146 jyu4 gu2 nei5 zik1 gik6 tau4 san1 sat6 cin5 hai2 sat6 cin5 zung1 hok6 zaap6
-000147 nei5 wui5 faat3 jin6 sang1 wut6 tung4 maai4 gung1 zok3 mou5 soeng2 zoeng6 gam3 naan4
+000146 jyu4 gu2 nei5 zik1 gik6 tau4 san1 sat6 cin5
+000147 nei5 wui5 faat3 jin6 sang1 wut6 mou5 soeng2 zoeng6 gam3 naan4
 000148 hou2 do1 je5 m4 hai6 zou6 m4 zou6 dak1 dou2 ge3 man6 tai4
 000149 ji4 hai6 soeng2 bat1 soeng2 zou6 ge3 man6 tai4
 000150 jyu4 gu2 nei5 soeng2 zou6 nei5 zau6 wui5 nam2 baan6 faat3
 000151 nei5 jyu4 gu2 bat1 soeng2 zou6 nei5 zau6 wui5 wan2 jat1 daai6 deoi1 lei5 jau4
 000152 mou4 leon6 git3 gwo2 hai6 dim2 joeng2
 000153 nei5 wok6 dak1 ge3 tai2 wui6 tung4 maai4 jyut6 lik6 hai6 nei5 ne1 jat1 sai3 ge3 coi4 fu3
-000154 fun1 jing4 daai6 gaa1 gwong1 lam4 ngo5 dei6 gam1 jat6 ge3 gaa1 ban1 liu4 tin1 sat1
+000154 fun1 jing4 daai6 gaa1 gwong1 lam4 ngo5 dei6 ge3 liu4 tin1 sat1
 000155 ji5 haa6 hai6 ne1 ci3 fong2 taam4 ge3 sat6 luk6
 000156 hai2 cin4 bin6 cat1 kei4 ge3 zit3 muk6 lei5 bin6
 000157 tung4 daai6 gaa1 gung6 tung4 gwaan1 zyu3 zo2 daai6 hok6 saang1 zau6 jip6 ge3 waa2 tai4
 000158 hai2 gam1 jat6 ge3 zit3 muk6 dong1 zung1
 000159 zoeng1 wui2 gai3 zuk6 gwaan1 zyu3 ngo5 dei6 ge3 jit6 dim2 waa2 tai4 zi1 jat1
-000160 zau6 hai6 dong1 nei5 jau4 jyu6 gan2 daai6 gung1 si1 ge3 sai3 zik1 wai6 tung4 maai4 sai3 gung1 si1 ge3 daai6 zik1 wai6 go2 zan6 si2
+000160 zau6 hai6 dong1 nei5 jau4 jyu6 gan2 daai6 gung1 si1 tung4 maai4 sai3 gung1 si1 go2 zan6 si2
 000161 jing1 goi1 dim2 heoi3 gaan2 ne1
 000162 jung6 jat1 geoi3 zuk6 waa2 lai4 gong2 zau6 hai6
-000163 hai2 gai1 tau4 tung4 maai4 fung6 mei5 zi1 gaan1 syun2 zaak6 ge3 si4 hau6
+000163 hai2 gai1 tau4 tung4 maai4 fung6 mei5 zi1 gaan1 syun2 zaak6 go2 zan6 si2
 000164 nei5 hai6 ning4 jyun2 zou6 faan1 go3 gai1 tau4 ding6 hai6 zou6 faan1 go3 fung6 mei5
-000165 jik6 dou1 hai6 hou2 do1 daai6 hok6 saang1 pang4 jau5 muk6 cin4 min6 lam4 ge3 zeoi3 daai6 kwan3 waak6 zi1 jat1
+000165 jik6 dou1 hai6 hou2 do1 daai6 hok6 saang1 pang4 jau5 ge3 zeoi3 daai6 kwan3 waak6 zi1 jat1
 000166 gam1 jat6 hai2 ngo5 dei6 zit3 muk6 dong1 zung1 zoeng1 wui2 tung4 daai6 gaa1 jat1 cai4 taam3 tou2
 000167 soeng2 ceng2 loeng5 wai2 lou5 si1 gaan2 daan1 tung4 daai6 gaa1 gaai3 siu6 faan1 leng4 baat3 nin4 tung4 hok6 ge3 zung2 tai2 cing4 fong3
 000168 sau2 sin1 ngo5 soeng2 gaai3 siu6 haa5 ngo5 dei6 hok6 haau6 ge3 zing2 tai2 cing4 fong3
