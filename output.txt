@@ -11,7 +11,7 @@
 000011 keoi5 ge3 san1 soeng6 jau5 hou2 do1 je5 zik6 dak1 nei5 hok6 zaap6
 000012 ji4 gaa1 hou2 do1 kau4 zik1 ze2 syun2 zaak6 jap6 di1 dim2 ge3 gung1 si1
 000013 hou2 zung6 jiu3 ge3 jat1 dim2 zau6 hai6 haau2 leoi6
-000014 jap6 ni1 gaa1 gung1 si1 jau5 mou4 hou2 ge3 faat3 zin2 cin4 tou4
+000014 jap6 ne1 gaa1 gung1 si1 jau5 mou4 hou2 ge3 faat3 zin2 cin4 tou4
 000015 ngo5 soeng2 man6 haa5 cung4 si6 ne1 fan6 gung1 ge3 jan4
 000016 keoi5 ge3 faat3 zin2 cin4 ging2 tung4 maai4 zeon3 sing1 gei1 wui6 hai6 dim2 joeng2 ge3 ne1
 000017 ni1 go3 dou1 hai6 jiu3 tai2 zi6 gei2 ge3 nang4 lik6
@@ -975,3 +975,66 @@
 000975 ceot1 heoi3 haang4 haa5 zip3 cuk1 san1 ge3 si6 mat6 san1 ge3 fo2 bun6
 000976 jan1 wai6 ho2 nang4 dang2 nei5 ceot1 zo2 lei4 zou6 gung1 zi1 hau6
 000977 zoi3 jau5 hou2 ci5 daai6 hok6 gam3 fun1 jung4 ge3 waan4 ging2 zau6 hou2 naan4 laa1
+000978 keoi5 mou5 co3 aa1 dim2 gaai2 jiu3 jing6
+000979 keoi5 dei6 dou1 geng1 saai3 nei5
+000980 go3 go3 dou1 hai6 aa3 bang1 giu3 gau2 jyut6 giu3 jyut6 zau2
+000981 keoi5 zau6 hai6 aa3 fuk1 lei4 ge3
+000982 aa3 laan4 maai6 zyu1 jat1 cin1 m4 maai6 maai6 baat3 baak3
+000983 nei5 zan1 hai6 aa3 mau6 zing2 beng2 mou5 go3 joeng2 zing2 go2 joeng6
+000984 ne1 paai4 ge3 jip6 zik1 m4 soeng5 m4 lok6
+000985 aa3 to2 haang4 lou6 zung1 zung1 dei2
+000986 keoi5 dim2 gaai2 wui3 gam2 zou6 aa3
+000987 oi1 kei4 bat1 hang6 nou6 kei4 bat1 zang1
+000988 m4 hou2 gam2 saang1 so1 aai1 gan6 di1 lei4 co5
+000989 mai6 tai2 keoi5 saang1 dak1 ai2 sai3 kei4 sat6 hou2 daai6 lik6 gaa4
+000990 daa2 laan6 zo2 zek3 san1 wun2 tim1
+000991 zi6 gei2 jan4 m4 hou2 aai3 gaau1
+000992 ji1 gaa1 hai2 gwong2 zau1 zung2 syun3 on1 deon6 lok6 lai4 la1
+000993 on1 hei3 jau5 koeng4 lit6 ge3 ci3 gik1 hei3 mei6
+000994 keoi5 on1 cin4 maa5 hau6 wai6 nei5 zou6 gam3 do1 je5
+000995 nei5 do1 ze6 dou1 mou5 geoi3 me1
+000996 keoi5 faai3 min6 saang1 zo2 hou2 do1 am3 cong1
+000997 nei5 gong2 ceot1 lai4 dou1 mou5 jan4 wui5 ho2 lin4 nei5
+000998 nei5 zi6 gei2 am3 aa2 dai2 la1
+000999 ngo5 hai2 daai6 ngou4 kai1 go2 bin1
+001000 ngam2 sat6 di1 deoi3 ngaan5 la1
+001001 ne1 wun2 baat3 bou2 zuk1 ge3 coi4 liu2 hou2 fung1 fu3 aa3
+001002 m4 sai2 nei5 gam3 baat3 gwaa3
+001003 san1 nin4 maan5 wui2 gaau2 dak1 hou2 baa1 bai3
+001004 keoi5 go2 ci3 sau6 soeng1 hai2 sau2 soeng6 lau4 dai1 hou2 sam1 ge3 baa1 han4
+001005 lou6 gin3 bat1 ping4 bat6 dou1 soeng1 zo6
+001006 ne1 ci3 mou5 saai3 baa2 paau3
+001007 dik1 si2 si1 gei1 ding2 m4 seon6 gung1 si1 ge3 coeng4 kei4 aat3 zaa3
+001008 keoi5 m4 lei4 zau6 baa6 zau6 la1
+001009 keoi1 gaan3 uk1 hou2 ci5 baak6 gaap3 lung2
+001010 baak6 gwan2 seoi2 m4 hou2 zik6 zip3 jam2
+001011 aa3 maa1 maai5 zo2 baak6 cit3 gai1
+001012 nei5 gu2 haa5 zi6 gei2 ge3 sat6 lik6 sin1
+001013 keoi5 go3 sai3 lou6 zan1 hai6 hou2 baak3 jim3
+001014 go3 faa1 zeon1 fong3 hai2 dou6 baai2 ging2 ge3 ze1
+001015 ne1 ci3 caa1 di1 jau6 baai2 wu1 lung2 la1
+001016 jat6 jat6 heoi3 baai3 san4 zau6 hai2 wai6 zo2 go3 zai2 ho2 ji5 haau2 soeng5 daai6 hok6
+001017 baan1 cai4 di1 jan4 maa5 gwo3 lai4
+001018 mou5 loeng5 haa5 baan2 fu2 dim2 wan2 sik6 aa3
+001019 ne1 bun2 syu1 hai6 dai6 gei2 baan2 ci3
+001020 nei5 ge3 jing1 man2 bun3 saang1 bat1 suk6 dim2 tung4 jan4 gaau1 lau4 aa3
+001021 zan1 hai6 bun3 je6 gai1 tai4 m4 zi1 cau2
+001022 jau5 di1 jan4 zung1 ji3 baan6 zyu1 sik6 lou5 fu2
+001023 ne1 ci3 faan6 zeoi6 ge3 bong1 hung1 m4 zi2 jat1 go3
+001024 bong1 ngo5 deng6 go3 baau1 gaan1
+001025 bou1 zo2 seng4 go3 zung1 din6 waa2 zuk1
+001026 bou1 zoeng2 jau5 gung1 jan4 jyun4
+001027 tiu4 si1 gwaa1 lo2 heoi3 paau4 pei4
+001028 heoi3 maai5 baau1 jyu4 faan1 lai4 gaa1 sung3
+001029 jat1 dou2 dung1 tin1 zek3 sau2 zau6 baau3 caak3
+001030 bei3 keoi5 gik1 dou2 ngo5 baau3 hyut3 gun2 lo1
+001031 ngo5 hai6 bak1 fong1 jan4
+001032 go3 bui3 hok3 hou2 leng3 aa3
+001033 ting1 ziu1 lou5 si1 jiu3 cau1 caa4 bui6 syu1
+001034 aa3 ming4 hai2 dou6 saai3 min4 toi1
+001035 zoeng1 waa4 ji4 gaa1 hai6 bun2 fo1 sang1
+001036 bang1 hau2 jan4 gei6 sik6 bang1 hau2 wun2
+001037 haak3 dou3 ngo5 bei6 go1 lung1 dou2 mou5 juk6
+001038 loeng5 zung2 fong1 on3 jat1 bei2 ziu3 zau6 zi1 bin1 go3 hou2 la1
+001039 jau6 m4 sai2 gam3 bai3 ai3 ge3
+001040 bei2 go3 seoi2 gong1 keoi5 zou6 daam2 keoi5 dou1 m4 gam2 ge3
